@@ -41,83 +41,7 @@
   </head>
 
   <body>
-/* Slideshow container */
-.slideshow-container {
-  position: relative;
-  background: #f1f1f1f1;
-}
 
-/* Slides */
-.mySlides {
-  display: none;
-  padding: 80px;
-  text-align: center;
-  background-color:black;
-  
-}
-
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -30px;
-  padding: 16px;
-  color: #888;
-  font-weight: bold;
-  font-size: 20px;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  position: absolute;
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-  color: white;
-}
-
-/* The dot/bullet/indicator container */
-.dot-container {
-    text-align: center;
-    padding: 20px;
-    background: #ddd;
-}
-
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-/* Add a background color to the active dot/circle */
-.active, .dot:hover {
-  background-color: #717171;
-}
-
-/* Add an italic font style to all quotes */
-q {font-style: italic;}
-
-/* Add a blue color to the author */
-.author {color: cornflowerblue;}
-q {color:white;}
-
-h1{
-color:white;
-}
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
@@ -180,27 +104,18 @@ color:white;
    
 
     <!-- Main Content -->
+	  <div id = "containerSlider">
+  <div class="mySlides">
+  <h1>FULL TIME HIFZ CLASSES ON ZOOM WILL BEGIN ON MARCH 23RD, 2020 FROM 8:20 AM-3:00 PM</h1>
+    <img class = "slides" src = "img/NSuccessStories2.jpg"/>
+    <img class = "slides" src = "img/NSucessStories3.jpg"/>
+    <img class = "slides" src = "img/NSuccessStories4.jpg"/>
+    <img class = "slides" src = "img/NSuccessStories5.jpg"/>
+    <img class = "slides" src = "img/NSuccessStories7.jpg"/>
+    <button class = "btn" onclick = "plusIndex(-1)" id = "btn1" >&#10094;</button>
+    <button class = "btn" onclick = "plusIndex(1)" id = "btn2" >&#10095;</button>
 <div class="slideshow-container">
 
-<div class="mySlides">
-  <h1>FULL TIME HIFZ CLASSES ON ZOOM WILL BEGIN ON MARCH 23RD, 2020 FROM 8:20 AM-3:00 PM</h1>
-  
-</div>
-
-<div class="mySlides">
-  <h1>EVENING HIFZ CLASSES ON ZOOM WILL BEGIN ON MARCH 23RD, 2020 FROM 3:45 PM-7:00 PM</h1>
-</div>
-
-<a class="prev" onclick="plusSlides(-1)">❮</a>
-<a class="next" onclick="plusSlides(1)">❯</a>
-
-</div>
-
-<div class="dot-container">
-  <span class="dot" onclick="currentSlide(1)"></span> 
-  <span class="dot" onclick="currentSlide(2)"></span> 
-  <span class="dot" onclick="currentSlide(3)"></span> 
-</div>
   <!--
   <div class = "cSlide">
     <p> Slide Three </p>
