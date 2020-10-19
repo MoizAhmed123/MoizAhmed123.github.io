@@ -347,81 +347,175 @@ function showSlides(n) {
     
 
     <!-- Footer -->
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title></title>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<style>
+table {
+	max-width:980px;
+	table-layout:fixed;
+	margin:auto;
+}
+th, td {
+	padding:5px 10px;
+	border:1px solid #000;
+}
+thead, tfoot {
+	background:#f9f9f9;
+	display:table;
+	width:100%;
+	width:calc(100% - 18px);
+}
+tbody {
+	height:300px;
+	overflow:auto;
+	overflow-x:hidden;
+	display:block;
+	width:100%;
+}
+tbody tr {
+	display:table;
+	width:100%;
+	table-layout:fixed;
+}
+</style>
 </head>
+
 <body>
-
-    <div class="table">
-        <div class="row headers">
-            <div class="cell col1">Col1</div>
-            <div class="cell col2">Col2</div>
-            <div class="cell col3">Col3</div>
-        </div>
-        <div class="row">
-            <div class="cell col1">1</div>
-            <div class="cell col2">2</div>
-            <div class="cell col3">3</div>
-        </div>
-        <div class="row">
-            <div class="cell col1">1</div>
-            <div class="cell col2">2</div>
-            <div class="cell col3">3</div>
-        </div>
-        <div class="row">
-            <div class="cell col1">1</div>
-            <div class="cell col2">2</div>
-            <div class="cell col3">3</div>
-        </div>
-        <div class="row footers">
-            <div class="cell col1">Footer</div>
-            <div class="cell col2"></div>
-            <div class="cell col3"></div>
-        </div>
-    </div>
-
+<table>
+  <thead>
+    <tr>
+      <th scope="col">Header 1</th>
+      <th scope="col">Header 2</th>
+      <th scope="col">Header 3</th>
+      <th scope="col">Header 4</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Cell content with content to wrap as required Cell content with content to wrap as required Cell content with content to wrap as required Cell content with content to wrap as required Cell content with content to wrap as required Cell content with content to wrap as required </td>
+      <td>Cell content</td>
+      <td>Cell content</td>
+      <td>Cell content</td>
+    </tr>
+    <tr>
+      <td>Cell content</td>
+      <td>Cell content</td>
+      <td>Cell content</td>
+      <td>Cell content</td>
+    </tr>
+    <tr>
+      <td>Cell content</td>
+      <td>Cell content</td>
+      <td>Cell content</td>
+      <td>Cell content</td>
+    </tr>
+    <tr>
+      <td>Cell content</td>
+      <td>Cell content</td>
+      <td>Cell content</td>
+      <td>Cell content</td>
+    </tr>
+    <tr>
+      <td>Cell content</td>
+      <td>Cell content</td>
+      <td>Cell content</td>
+      <td>Cell content</td>
+    </tr>
+    <tr>
+      <td>Cell content</td>
+      <td>Cell content</td>
+      <td>Cell content</td>
+      <td>Cell content</td>
+    </tr>
+    <tr>
+      <td>Cell content</td>
+      <td>Cell content</td>
+      <td>Cell content</td>
+      <td>Cell content</td>
+    </tr>
+    <tr>
+      <td>Cell content</td>
+      <td>Cell content</td>
+      <td>Cell content</td>
+      <td>Cell content</td>
+    </tr>
+    <tr>
+      <td>Cell content</td>
+      <td>Cell content</td>
+      <td>Cell content</td>
+      <td>Cell content</td>
+    </tr>
+    <tr>
+      <td>Cell content</td>
+      <td>Cell content</td>
+      <td>Cell content</td>
+      <td>Cell content</td>
+    </tr>
+    <tr>
+      <td>Cell content</td>
+      <td>Cell content</td>
+      <td>Cell content</td>
+      <td>Cell content</td>
+    </tr>
+    <tr>
+      <td>Cell content</td>
+      <td>Cell content</td>
+      <td>Cell content</td>
+      <td>Cell content</td>
+    </tr>
+    <tr>
+      <td>Cell content</td>
+      <td>Cell content</td>
+      <td>Cell content</td>
+      <td>Cell content</td>
+    </tr>
+    <tr>
+      <td>Cell content</td>
+      <td>Cell content</td>
+      <td>Cell content</td>
+      <td>Cell content</td>
+    </tr>
+    <tr>
+      <td>Cell content</td>
+      <td>Cell content</td>
+      <td>Cell content</td>
+      <td>Cell content</td>
+    </tr>
+    <tr>
+      <td>Cell content</td>
+      <td>Cell content</td>
+      <td>Cell content</td>
+      <td>Cell content</td>
+    </tr>
+    <tr>
+      <td>Cell content</td>
+      <td>Cell content</td>
+      <td>Cell content</td>
+      <td>Cell content</td>
+    </tr>
+    <tr>
+      <td>Cell content</td>
+      <td>Cell content</td>
+      <td>Cell content</td>
+      <td>Cell content</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td>Footer 1</td>
+      <td>Footer 2</td>
+      <td>Footer 3</td>
+      <td>Footer 4</td>
+    </tr>
+  </tfoot>
+</table>
 </body>
-
 </html>
-		.table{
-    display:table;
-    width: 100%;
-    border: 1px solid #000;
-    background: #eee;
-}
-.row{
-    display:table-row;
-}
-.headers { color: #505; font-weight: bold;}
-.footers { color: #055;}
-.cell{
-    background: #eee;
-    display:table-cell;
-    border: 1px solid #fff;
-}
-
-.col1 { width:50%;}
-.col2 { width:25%;}
-.col3 { width:25%;}
-    </div>
-</body>
-	 <center><pclass="copyright text-muted">Copyright &copy; TMDevs 2018</p></center>
 </footer>
   
-<!DOCTYPE html>
-<html lang="en">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content=""><footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-md-10 mx-auto">
-            <ul class="list-inline text-center">
-    </footer>
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
