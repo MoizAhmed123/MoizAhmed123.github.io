@@ -283,18 +283,3 @@ body{font-size:20px;color:#212529;font-family:Lora,'Times New Roman',serif}p{lin
 	width:100%;
 }
 
-.form {
-    width: 100%;
-    box-sizing: border-box;
-    padding: 12px 5px;
-    background: rgba(0,0,0,0.10);
-    outline: none;
-    border: none;
-    border-bottom: 1px dotted #ffffff;
-    color: #ffffff;
-    border-radius: 5px;
-    margin: 5px;
-    font-weight: bold;
-    font-family: 'Handlee', cursive;
-    font-size: 17px;
-}
