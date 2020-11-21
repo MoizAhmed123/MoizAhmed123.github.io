@@ -8,11 +8,11 @@ function validate()
     //validate inputs and redirect
     if (username=="admin"&& password=="user") {
         window.location="https://assalaminstitute.ca/zaakirS.html";
-        alert("login succesfull!");
+        //alert("login succesfull!");
     }
     else
     {
-        alert("Username or password incorrect, please try again");
+        //lert("Username or password incorrect, please try again");
     }
 
 }
