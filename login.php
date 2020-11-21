@@ -75,7 +75,7 @@
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto">
             <div class="post-heading">
-              <h1><center>Ahadith Lessons</center></h1>
+              <h1><center>Log In</center></h1>
 
             </div>
           </div>
