@@ -103,6 +103,10 @@
           if (un=="aiq") {
             if (pass=="test123") {
               alert("login successfull");
+              document.querySelector('#redirect')
+                .addEventListener('click', () => {
+                  window.location.href = 'google.com';
+                });
               return;
             } else {
               alert("incorrect username or password");
