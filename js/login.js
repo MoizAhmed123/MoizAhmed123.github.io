@@ -9,7 +9,7 @@ function validate()
     if (username=="admin"&& password=="user") {
         window.location="https://assalaminstitute.ca/abbas_alvi.html";
         alert("login succesfull!");
-        return false;
+        return true;
     }
     else
     {
