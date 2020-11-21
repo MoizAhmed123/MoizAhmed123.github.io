@@ -24,6 +24,9 @@
     <link rel= "icon" type="images/png" href= "img/aiqlogo.png">
     <link href="css/login.css" rel="stylesheet">
 
+    <!--Core login JavaScript-->
+    <script src="js/login.js"> </script>
+
   </head>
 
   <body>
@@ -91,7 +94,7 @@
         <form class="form" name="loginsys" method="POST" action="login.html">
           <input type="text" placeholder="Username..." class="form" id="username">
           <input type="password" placeholder="Password..." class="form" id="password">
-          <button type="submit" class="submitbutton">Log in</button>
+          <button type="submit" class="submitbutton" onclick="validate()">Log in</button>
         </form>
       </div>
 
