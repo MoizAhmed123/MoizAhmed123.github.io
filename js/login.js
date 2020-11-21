@@ -7,12 +7,13 @@ function validate()
     
     //validate inputs and redirect
     if (username=="admin"&& password=="user") {
-        window.location="https://assalaminstitute.ca/zaakirS.html";
+        window.location="https://islam.ca";
+        return false;
         //alert("login succesfull!");
     }
     else
     {
-        //lert("Username or password incorrect, please try again");
+        //alert("Username or password incorrect, please try again");
     }
 
 }
