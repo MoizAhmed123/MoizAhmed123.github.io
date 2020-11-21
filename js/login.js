@@ -9,7 +9,6 @@ function validate()
     if (username=="admin"&& password=="user") {
         window.location="https://assalaminstitute.ca/zaakirS.html";
         alert("login succesfull!");
-        return false;
     }
     else
     {
