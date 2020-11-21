@@ -7,7 +7,7 @@ function validate()
     
     //validate inputs and redirect
     if (username=="admin"&& password=="user") {
-        window.location="https://www.google.com";
+        window.location="https://assalaminstitute.ca/zaakirS.html";
         alert("login succesfull!");
         return false;
     }
