@@ -1,7 +1,21 @@
-
+var objPeople = [
+    {
+        username: "aiq"
+        password: "test123"
+    },
+    {
+        username: "maaz"
+        password: "aiq"
+    }
+]
 
 function getInfo() {
     var username = document.getElementById("username").value
     var password = document.getElementById("password").value
-    console.log("your username is " + username + "and your password is " + password)
+
+    for(i = 0; i < objPeople.length; i++) {
+        if (username == objPeople[i].username && password == objPeople[i].password)  {
+            console.log(username + "is logged in")
+        }
+    }
 }
