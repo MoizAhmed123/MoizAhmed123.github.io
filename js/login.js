@@ -13,7 +13,8 @@ function validate()
     }
     else
     {
-        //alert("Username or password incorrect, please try again");
+        alert("Username or password incorrect, please try again");
+        return false;
     }
 
 }
