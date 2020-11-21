@@ -7,7 +7,7 @@ function validate()
     
     //validate inputs and redirect
     if (username=="admin"&& password=="user") {
-        window.location="https://islam.ca";
+        window.location="https://assalaminstitute.ca/abbas_alvi.html";
         alert("login succesfull!");
         return false;
     }
