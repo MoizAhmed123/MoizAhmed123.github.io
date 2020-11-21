@@ -38,3 +38,7 @@
     font-size: 20px;
     color: #ffffff;
 }
+
+.submitbutton:hover{
+    cursor: grab;
+}
