@@ -1,0 +1,26 @@
+.form {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px 5px;
+    background: rgba(0,0,0,0.10);
+    outline: none;
+    border: none;
+    border-bottom: 1px dotted #ffffff;
+    color: #ffffff;
+    border-radius: 5px;
+    margin: 5px;
+    font-weight: bold;
+    font-family: 'Handlee', cursive;
+    font-size: 17px;
+}
+
+.localform {
+    max-width: 420px;
+    border-radius: 20px;
+    margin: auto;
+    background: rgba(0,0,0,0.8);
+    box-sizing: border-box;
+    padding: 40px;
+    color: #ffffff;
+    margin-top: 100px;
+}
