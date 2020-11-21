@@ -87,15 +87,32 @@
 
     <!-- Main Content -->
       <div class="localform">
-        <form class="form">
-          <input type="text" placeholder="Username..." class="form" id="username">
-          <input type="password" placeholder="Password..." class="form" id="password">
+        <form class="form" name="loginsys">
+          <input type="text" placeholder="Username..." class="form" id="username" name="uid">
+          <input type="password" placeholder="Password..." class="form" id="password" name="pwd">
           <button type="submit" class="submitbutton" onclick="getInfo()">Log in</button>
         </form>
       </div>
 
-      <!--Core Javascript for login sys-->
-    <script src="js/main.js"></script>
+      <script>
+        function getInfo()
+        {
+          var un=document.forms["loginsys"][uid];
+          var pass=document.forms["loginsys"][pwd];
+
+          if (un=="aiq") {
+            if (pass=="test123") {
+              alert("login successfull");
+            } else {
+              alert("incorrect username or password");
+            }
+          } else {
+            alert("incorrect username or password");
+          }
+        }
+
+      </script>
+      <!--   <script src="js/main.js"></script>   -->
 
 
     
