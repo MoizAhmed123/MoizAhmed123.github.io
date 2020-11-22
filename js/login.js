@@ -10,13 +10,13 @@ function validate()
         window.location="https://docs.google.com/spreadsheets/d/e/2PACX-1vQBnbgVNqcYnZUp2HSoup84n1YCjNVZ299Php1bbT2EBKzrLOL-7f5t_h7fQr3392tIVIu9uU0hjecs/pubhtml?gid=0&single=true";
         alert("login succesfull!");
         return false;
-    }
-    else
-    {
-        alert("Username or password incorrect, please try again");
-        return false;
-    }
+
+    } 
+    
 
 
 
+//failed login script:
+//alert("Username or password incorrect, please try again");
+//return false;
 }
