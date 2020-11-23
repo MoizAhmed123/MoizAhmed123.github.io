@@ -18,5 +18,6 @@ function validate()
 
 
 //failed login script
+//alert="incorrect username or password"
 //return false;
 }
