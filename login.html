@@ -91,24 +91,13 @@
     <!-- Main Content -->
       <div class="localform">
         <form class="form" name="loginsys" action="login.html" method="POST">
-          <input type="text" placeholder="Username" name="userid"><br>
-          <input type="password" placeholder="Password" name="pswrd"><br>
+          <input type="text" placeholder="Username" name="userid" id="username"><br>
+          <input type="password" placeholder="Password" name="pswrd" id="password"><br>
           <button type="submit" class="submitbutton" onclick="validate()">Log in</button>
-     </div>
-	      </form>
-     <script language="javascript">
-	function check (form)
-	     {
-	if(form.userid.value == "zaakirsheikh" && form.pswrd.value == "6302009")
-	{
-	window.open('https://assalaminstitute.ca/zaakirS.html')
-		}
-	else
-		{     
-			alert ("Username and/or password is invalid")
-			}
-		     }
-	  </script>
+        </form>
+      </div>
+	      
+
  </body>
       
 <!-- Footer -->
