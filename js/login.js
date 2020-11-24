@@ -20,8 +20,7 @@ function validate()
         window.location="https://assalaminstitute.ca/zaakirS.html";
         alert="login successfull";
         return false; 
-    
-
+}
 
 
 //failed login script
