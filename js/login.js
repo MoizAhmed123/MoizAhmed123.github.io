@@ -15,13 +15,7 @@ function validate()
         window.location="https://assalaminstitute.ca/abbas_alvi.html";
         alert="login successfull";
         return false;
-    }
-     if (username=="zaakirsheikh"&& password=="6302009") {
-        window.location="https://assalaminstitute.ca/zaakirS.html";
-        alert="login successfull";
-        return false; 
-}
-
+ }
 
 //failed login script
 //alert="incorrect username or password"
