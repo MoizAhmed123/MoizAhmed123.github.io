@@ -6,13 +6,10 @@ function validate()
     const password=document.getElementById("password").value;
     const form = document.getElementById("form").value;
 
-    form.addEventListener('submit', (e) => {
-        e.preventDefault();
-    })
 
-    
+
     //validate inputs and redirect
-    if (username=="abbasalvi1"&& password=="test123") {
+    if (username=="admin"&& password=="user") {
         window.location="https://assalaminstitute.ca/abbas_alvi.html";
         alert="login sucsessfull";
         return false;
