@@ -13,10 +13,13 @@ function validate()
     //validate inputs and redirect
     if (username=="admin"&& password=="user") {
         window.location="https://assalaminstitute.ca/abbas_alvi.html";
-        alert="login sucsessfull";
+        alert="login successfull";
         return false;
     }
-     
+     if (username=="zaakirsheikh"&& password=="6302009") {
+        window.location="https://assalaminstitute.ca/zaakirS.html";
+        alert="login successfull";
+        return false; 
     
 
 
