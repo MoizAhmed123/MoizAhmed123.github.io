@@ -12,9 +12,10 @@ function validate()
 
     //validate inputs and redirect
     if (username=="admin"&& password=="user") {
-        window.location="https://assalaminstitute.ca/abbas_alvi.html";
         alert="login sucsessfull";
-        return false;
+    }
+    else {
+       alert("the username " + username + ", or the password " + password + ", was not correct"); 
     }
      
     
