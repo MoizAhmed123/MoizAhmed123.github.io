@@ -2,11 +2,13 @@ function validate()
 {
 
     //get inputs from user
-    const username=document.getElementById("username").value;
-    const password=document.getElementById("password").value;
-    const form = document.getElementById("form").value;
+    //var username = document.getElementById("username").value;
+    //var password = document.getElementById("password").value;
 
-
+    var url_string = (window.location.href).toLowerCase();
+    var url = new URL(url_string);
+    var username = url.SearchParams.get("username");
+    var password = url.SearchParams.get("password");
 
     //validate inputs and redirect
     if (username=="admin"&& password=="user") {
