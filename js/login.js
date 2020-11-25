@@ -12,12 +12,7 @@ function validate()
 
     //validate inputs and redirect
     if (username=="admin"&& password=="user") {
-        alert="login sucsessfull";
-        // similar behavior as an HTTP redirect
-window.location.replace("https://assalaminstitute.ca/methods.html");
-
-// similar behavior as clicking on a link
-window.location.href = "https://assalaminstitute.ca/methods.html";
+        alert="login successful";
     }
     else {
        alert("the username " + username + ", or the password " + password + ", was not correct"); 
