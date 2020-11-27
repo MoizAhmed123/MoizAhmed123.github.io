@@ -5,6 +5,8 @@ Username and Password*/
 
 
 function pasuser(form) {
+
+ //use these logins for test purposes 
 if (form.identifier.value=="admin") { 
 console.log(form.identifier.value)
 if (form.pass.value=="user") { 
@@ -12,6 +14,7 @@ if (form.pass.value=="user") {
 } else {
 alert("Invalid Password");
 }
+//test js end
 } else {
 
   if (form.identifier.value=="zaakir.sheikh") { 
@@ -22,23 +25,24 @@ alert("Invalid Password");
     alert("Invalid Password");
     }
     } else {
-      
-      if (form.identifier.value=="abbas.alvi") { 
-        console.log(form.identifier.value)
-        if (form.pass.value=="10272008") {
-          window.location.assign('https://assalaminstitute.ca/abbas_alvi.html');
-        } else {
-        alert("Invalid Password");
-        }
-        } else {
-          alert("Invalid Username");
-        }
-      }
-
-
+    alert("Invalid Username");
     }
+
+    if (form.identifier.value=="abbas.alvi") { 
+      console.log(form.identifier.value)
+      if (form.pass.value=="10272008") {
+        window.location.assign('https://assalaminstitute.ca/abbas_alvi.html');
+      } else {
+      alert("Invalid Password");
+      }
+      } else {
+      alert("Invalid Username");
+    }
+    
+
+
+
+
   }
-
-
 //end of function there should be no else statments using the end bracket
 }
