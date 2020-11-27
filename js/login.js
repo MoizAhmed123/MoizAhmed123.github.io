@@ -10,24 +10,6 @@ alert("Invalid Password");
 }
 
 } else {  
-
-//  alert("Invalid UserID");
-
-
-if (form.identifier.value=="zaakir") { 
-  console.log(form.identifier.value)
-  if (form.pass.value=="sheikh") { 
-    window.location.assign('https://assalaminstitute.ca/contact.html');
-  } else {
-  alert("Invalid Password");
-  }
-  
-  } else {  
-  
 alert("Invalid UserID");
-
-
-
-
 }
 }
