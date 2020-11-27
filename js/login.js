@@ -9,7 +9,7 @@ if (form.pass.value=="user") {
 alert("Invalid Password");
 }
 
-} else {  alert("Invalid Username");
+} alert("Invalid Username");
 }
 }
 } else {
@@ -21,4 +21,4 @@ alert("Invalid Password");
     alert("Invalid Password");
 }
 
-} else {  alert("Invalid Username");
+} alert("Invalid Username");
