@@ -1,4 +1,4 @@
-.box {
+.inputBox {
     width: 100%;
     box-sizing: border-box;
     padding: 12px 5px;
@@ -14,7 +14,7 @@
     font-size: 20px;
 }
 
-.inputBox {
+.box {
     max-width: 500px;
     border-radius: 20px;
     margin: auto;
@@ -26,7 +26,7 @@
     margin-bottom: 100px;
 }
 
-.button {
+.button, dddd{
     width: 100%;
     box-sizing: border-box;
     padding: 10px 0;
