@@ -42,7 +42,6 @@ alert("Invalid Password");
 
 
 
-
+//end of login.js there should be no else statments using last 2 brackets
   }
-//end of function there should be no else statments using the end bracket
 }
