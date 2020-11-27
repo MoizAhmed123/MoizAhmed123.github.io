@@ -3,8 +3,6 @@ if (form.identifier.value=="zaakir.sheikh") {
     if (form.pass.value=="6302009") {
       window.location.assign('https://assalaminstitute.ca/zaakirS.html');
     } else {
-    alert("Invalid Password");
     }
     } else {
-    alert("Invalid Username");
-    }
+}
