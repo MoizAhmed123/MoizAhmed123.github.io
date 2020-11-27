@@ -1,4 +1,4 @@
-.form {
+.box {
     width: 100%;
     box-sizing: border-box;
     padding: 12px 5px;
@@ -14,7 +14,7 @@
     font-size: 20px;
 }
 
-.localform {
+.inputBox {
     max-width: 500px;
     border-radius: 20px;
     margin: auto;
