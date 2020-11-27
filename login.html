@@ -88,16 +88,27 @@
     </header>
     
     <!-- Main Content -->
-      <div class="localform" id="form">
-        <form class="form" name="loginsys" action="https://assalaminstitute.ca/login.html" method="GET">
-            <input type="text" placeholder="Username" class="form" id="username">
-          <input type="password" placeholder="Password" class="form" id="password">
-          <button type="submit" class="submitbutton" onclick="validate()">Log in</button>
-        </form>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="/login.css">
+  <script src="/login.js"></script>
+  <title></title>
+</head>
+<body>
+  <div class="box">
+    <h2>Login</h2>
+    <form>
+      <div class="inputBox">
+        <input type="text" name="identifier" required="">
+        <label>Username</label>
       </div>
-	      
-
- </body>
+      <div class="inputBox">
+        <input type="password" name="pass" required="">
+        <label>Password</label>
+      </div>
+      <input type="button" value="Submit" onclick="pasuser(form)">
+    </form>
+  </div>
       
 <!-- Footer -->
 <!DOCTYPE HTML>
