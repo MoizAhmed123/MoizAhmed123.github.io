@@ -39,6 +39,18 @@ alert("Invalid Password");
     } else {
     alert("Invalid Username");
   }
+
+  //ABDUSSAMAD SIDDIQI
+  if (form.identifier.value=="abdussamad.siddiqi") { 
+    console.log(form.identifier.value)
+    if (form.pass.value=="12072008") {
+      window.location.assign('https://assalaminstitute.ca/abdussamad_siddiqi.html');
+    } else {
+    alert("Invalid Password");
+    }
+    } else {
+    alert("Invalid Username");
+    }
     
 
 
