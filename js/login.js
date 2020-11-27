@@ -24,5 +24,5 @@ alert("Invalid Password");
   }
 
 
-//end of function there should be now else statments using the end bracket
+//end of function there should be no else statments using the end bracket
 }
