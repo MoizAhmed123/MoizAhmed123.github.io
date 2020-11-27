@@ -40,6 +40,6 @@
     color: #ffffff;
 }
 
-.button:hover{
+.submitbutton:hover{
     cursor: grab;
 }
