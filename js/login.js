@@ -13,3 +13,14 @@ alert("Invalid Password");
 } else {  alert("Invalid Username");
 }
 }
+} else {
+if (form.pass.value=="user") { 
+  window.location.assign('https://assalaminstitute.ca/contact.html');
+} else {
+alert("Invalid Password");
+}
+
+} else {  alert("Invalid UserID");
+} else {  alert("Invalid Username");
+}
+}
