@@ -16,7 +16,7 @@ alert("Invalid Password");
 }
 //test js end
 } else {
-
+    //ABBAS ALVI
   if (form.identifier.value=="zaakir.sheikh") { 
     console.log(form.identifier.value)
     if (form.pass.value=="6302009") {
@@ -28,16 +28,17 @@ alert("Invalid Password");
     alert("Invalid Username");
     }
 
-    if (form.identifier.value=="abbas.alvi") { 
-      console.log(form.identifier.value)
-      if (form.pass.value=="10272008") {
-        window.location.assign('https://assalaminstitute.ca/abbas_alvi.html');
-      } else {
-      alert("Invalid Password");
-      }
-      } else {
-      alert("Invalid Username");
+  //ZAAKIR SHEIKH
+  if (form.identifier.value=="abbas.alvi") { 
+    console.log(form.identifier.value)
+    if (form.pass.value=="10272008") {
+      window.location.assign('https://assalaminstitute.ca/abbas_alvi.html');
+    } else {
+    alert("Invalid Password");
     }
+    } else {
+    alert("Invalid Username");
+  }
     
 
 
