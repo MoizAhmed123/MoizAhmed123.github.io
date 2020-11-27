@@ -1,5 +1,9 @@
 /*This Script allows people to enter by using a form that asks for a
 Username and Password*/
+
+
+
+
 function pasuser(form) {
 if (form.identifier.value=="admin") { 
 console.log(form.identifier.value)
@@ -9,7 +13,6 @@ if (form.pass.value=="user") {
 alert("Invalid Password");
 }
 } else {
-  //alert("Invalid Username");
 
   if (form.identifier.value=="zaakir.sheikh") { 
     console.log(form.identifier.value)
@@ -19,7 +22,20 @@ alert("Invalid Password");
     alert("Invalid Password");
     }
     } else {
-      alert("Invalid Username");
+      
+      if (form.identifier.value=="zabbas.alvi") { 
+        console.log(form.identifier.value)
+        if (form.pass.value=="10272008") {
+          window.location.assign('https://assalaminstitute.ca/zaakirS.html');
+        } else {
+        alert("Invalid Password");
+        }
+        } else {
+          alert("Invalid Username");
+        }
+      }
+
+
     }
   }
 
