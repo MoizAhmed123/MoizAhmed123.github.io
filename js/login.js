@@ -23,10 +23,10 @@ alert("Invalid Password");
     }
     } else {
       
-      if (form.identifier.value=="zabbas.alvi") { 
+      if (form.identifier.value=="abbas.alvi") { 
         console.log(form.identifier.value)
         if (form.pass.value=="10272008") {
-          window.location.assign('https://assalaminstitute.ca/zaakirS.html');
+          window.location.assign('https://assalaminstitute.ca/abbas_alvi.html');
         } else {
         alert("Invalid Password");
         }
