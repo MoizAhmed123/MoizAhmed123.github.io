@@ -26,7 +26,7 @@
     margin-bottom: 100px;
 }
 
-.submitbutton, dddd{
+.button, dddd{
     width: 100%;
     box-sizing: border-box;
     padding: 10px 0;
@@ -40,6 +40,6 @@
     color: #ffffff;
 }
 
-.submitbutton:hover{
+.button:hover{
     cursor: grab;
 }
