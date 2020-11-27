@@ -13,6 +13,7 @@ function validate()
     //validate inputs and redirect
     if (username=="admin"&& password=="user") {
         alert="login successful";
+      window.location.assign('https://assalaminstitute.ca/contact.html')
     }
     else {
        alert("the username " + username + ", or the password " + password + ", was not correct"); 
