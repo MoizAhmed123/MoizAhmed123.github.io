@@ -9,7 +9,7 @@ if (form.pass.value=="user") {
 alert("Invalid Password");
 }
 
-} else {  
-alert("Invalid UserID");
+} else {  alert("Invalid UserID");
+} else {  alert("Invalid Username");
 }
 }
