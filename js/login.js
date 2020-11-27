@@ -8,17 +8,21 @@ if (form.pass.value=="user") {
 } else {
 alert("Invalid Password");
 }
-
-} alert("Invalid Username");
-}
-}
 } else {
-  if (form.identifier.value=="zaakir.sheikh") { 
+  //alert("Invalid Username");
+
+  if (form.identifier.value=="zaakir") { 
     console.log(form.identifier.value)
-    if (form.pass.value=="6302009") { 
-      window.location.assign('https://assalaminstitute.ca/zaakirS.html');
+    if (form.pass.value=="sheikh") { 
+      window.location.assign('https://assalaminstitute.ca/index.html');
     } else {
     alert("Invalid Password");
-}
+    }
+    } else {
+      alert("Invalid Username");
+    }
+  }
 
-} alert("Invalid Username");
+
+//end of function there should be now else statments using the end bracket
+}
