@@ -64,6 +64,27 @@ alert("Invalid Password");
     }
     } else {
 }
+
+  //AFFAN SH.
+  if (form.identifier.value=="affan.shaikh") { 
+    console.log(form.identifier.value)
+    if (form.pass.value=="10262006") {
+      window.location.assign('https://assalaminstitute.ca/affan_s.html');
+    } else {
+    }
+    } else {
+}
+
+  //HAMDAAN ABDUL SABOOR
+  if (form.identifier.value=="hamdaan.abdulsuboor") { 
+    console.log(form.identifier.value)
+    if (form.pass.value=="10232008") {
+      window.location.assign('https://assalaminstitute.ca/hamdaan_abdul_saboor.html');
+    } else {
+    }
+    } else {
+}
+
     
 
 
