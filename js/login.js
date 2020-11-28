@@ -115,6 +115,16 @@ alert("Invalid Password");
     } else {
 }
 
+  //IRFAN SH.
+  if (form.identifier.value=="irfan.shaikh") { 
+    console.log(form.identifier.value)
+    if (form.pass.value=="4012010") {
+      window.location.assign('https://assalaminstitute.ca/irfan.html');
+    } else {
+    }
+    } else {
+}
+
     
 
 
