@@ -185,6 +185,16 @@ if (form.identifier.value=="nabil.kalifa") {
     } else {
 }
 
+  //SIDIK K
+  if (form.identifier.value=="sidik.karatella") { 
+    console.log(form.identifier.value)
+    if (form.pass.value=="2162008") {
+      window.location.assign('https://assalaminstitute.ca/sidik.html');
+    } else {
+    }
+    } else {
+}
+
 
 
     
