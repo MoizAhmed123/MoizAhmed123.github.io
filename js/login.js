@@ -225,6 +225,16 @@ if (form.identifier.value=="nabil.kalifa") {
     } else {
 }
 
+  //YUSUF AMJAD
+  if (form.identifier.value=="yusuf.amjad") { 
+    console.log(form.identifier.value)
+    if (form.pass.value=="10302007") {
+      window.location.assign('https://assalaminstitute.ca/yusufA.html');
+    } else {
+    }
+    } else {
+}
+
 
 
     
