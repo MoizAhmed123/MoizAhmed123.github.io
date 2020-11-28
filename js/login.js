@@ -215,6 +215,16 @@ if (form.identifier.value=="nabil.kalifa") {
     } else {
 }
 
+  //YUSUF M
+  if (form.identifier.value=="yousuf.mehmood") { 
+    console.log(form.identifier.value)
+    if (form.pass.value=="11112007") {
+      window.location.assign('https://assalaminstitute.ca/yousufM.html');
+    } else {
+    }
+    } else {
+}
+
 
 
     
