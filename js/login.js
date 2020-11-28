@@ -105,6 +105,16 @@ alert("Invalid Password");
     } else {
 }
 
+  //HUZAIFA 
+  if (form.identifier.value=="huzaifah.popalzai") { 
+    console.log(form.identifier.value)
+    if (form.pass.value=="7152012") {
+      window.location.assign('https://assalaminstitute.ca/huzaifah_popalzai.html');
+    } else {
+    }
+    } else {
+}
+
     
 
 
