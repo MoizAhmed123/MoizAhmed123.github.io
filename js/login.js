@@ -16,7 +16,7 @@ alert("Invalid Password");
 }
 //test js end
 } else {
-    //ABBAS ALVI
+    //ZAAKIR SHEIKH
   if (form.identifier.value=="zaakir.sheikh") { 
     console.log(form.identifier.value)
     if (form.pass.value=="6302009") {
@@ -26,7 +26,7 @@ alert("Invalid Password");
     } else {
   }
 
-  //ZAAKIR SHEIKH
+  //ABBAS ALVI
   if (form.identifier.value=="abbas.alvi") { 
     console.log(form.identifier.value)
     if (form.pass.value=="10272008") {
@@ -215,7 +215,7 @@ if (form.identifier.value=="nabil.kalifa") {
     } else {
 }
 
-  //YUSUF M
+  //YUSUF MEHMOOD
   if (form.identifier.value=="yousuf.mehmood") { 
     console.log(form.identifier.value)
     if (form.pass.value=="11112007") {
