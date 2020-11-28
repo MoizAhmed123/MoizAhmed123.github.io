@@ -125,6 +125,16 @@ alert("Invalid Password");
     } else {
 }
 
+  //MUHAMMAD M
+  if (form.identifier.value=="muhammad.mehraban") { 
+    console.log(form.identifier.value)
+    if (form.pass.value=="6062009") {
+      window.location.assign('https://assalaminstitute.ca/muhammadm.html');
+    } else {
+    }
+    } else {
+}
+
     
 
 
