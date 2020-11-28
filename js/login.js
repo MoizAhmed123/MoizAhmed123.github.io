@@ -175,6 +175,16 @@ if (form.identifier.value=="nabil.kalifa") {
     } else {
 }
 
+  //SAFA ALVI
+  if (form.identifier.value=="safa.alvi") { 
+    console.log(form.identifier.value)
+    if (form.pass.value=="5192010") {
+      window.location.assign('https://assalaminstitute.ca/safa.html');
+    } else {
+    }
+    } else {
+}
+
 
 
     
