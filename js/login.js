@@ -135,6 +135,36 @@ alert("Invalid Password");
     } else {
 }
 
+  //MUNIR KHAN
+  if (form.identifier.value=="munir.khan") { 
+    console.log(form.identifier.value)
+    if (form.pass.value=="1092009") {
+      window.location.assign('https://assalaminstitute.ca/munir.html');
+    } else {
+    }
+    } else {
+}
+
+//MUSTAFA KHAN
+if (form.identifier.value=="mustafa.khan") { 
+  console.log(form.identifier.value)
+  if (form.pass.value=="3152008") {
+    window.location.assign('https://assalaminstitute.ca/mustafa.html');
+  } else {
+  }
+  } else {
+}
+
+//NABIL K
+if (form.identifier.value=="nabil.kalifa") { 
+  console.log(form.identifier.value)
+  if (form.pass.value=="11122009") {
+    window.location.assign('https://assalaminstitute.ca/nabil.html');
+  } else {
+  }
+  } else {
+}
+
     
 
 
