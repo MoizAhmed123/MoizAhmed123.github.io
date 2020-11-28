@@ -205,6 +205,16 @@ if (form.identifier.value=="nabil.kalifa") {
     } else {
 }
 
+  //UTHMAN QADRI
+  if (form.identifier.value=="uthman.qadri") { 
+    console.log(form.identifier.value)
+    if (form.pass.value=="10202008") {
+      window.location.assign('https://assalaminstitute.ca/uthmanq.html');
+    } else {
+    }
+    } else {
+}
+
 
 
     
