@@ -44,7 +44,7 @@ alert("Invalid Password");
     } else {
     }
     } else {
-  }
+}
 
   //ABDUR_RAFAY KHAN
   if (form.identifier.value=="abdur-rafay.khan") { 
@@ -54,7 +54,7 @@ alert("Invalid Password");
     } else {
     }
     } else {
-  }  
+}  
   //ABUZAR
   if (form.identifier.value=="abuzar.popalzai") { 
     console.log(form.identifier.value)
@@ -80,6 +80,16 @@ alert("Invalid Password");
     console.log(form.identifier.value)
     if (form.pass.value=="10232008") {
       window.location.assign('https://assalaminstitute.ca/hamdaan_abdul_saboor.html');
+    } else {
+    }
+    } else {
+}
+
+  //HASEEB AZIZ
+  if (form.identifier.value=="haseeb.aziz") { 
+    console.log(form.identifier.value)
+    if (form.pass.value=="4112006") {
+      window.location.assign('https://assalaminstitute.ca/haseeb.html');
     } else {
     }
     } else {
