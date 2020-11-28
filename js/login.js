@@ -195,6 +195,16 @@ if (form.identifier.value=="nabil.kalifa") {
     } else {
 }
 
+  //UMAR SYED
+  if (form.identifier.value=="umar.syed") { 
+    console.log(form.identifier.value)
+    if (form.pass.value=="1142006") {
+      window.location.assign('https://assalaminstitute.ca/umar_syed.html');
+    } else {
+    }
+    } else {
+}
+
 
 
     
