@@ -10,7 +10,7 @@ window.addEventListener("DOMContentLoaded", function() {
     function success() {
       form.reset();
       status.innerHTML = "Thanks!";
-      //window.location.assign('') //redirect to url id sent sucessfully
+      window.location.assign('https://assalaminstitute.ca/redirectafterpasswordorusernamechange.html');
     }
 
     function error() {
