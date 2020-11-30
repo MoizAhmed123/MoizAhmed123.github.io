@@ -16,38 +16,46 @@
           <div class="forms-container">
             <div class="signin-signup">
               <!--password-change-request:-->
-              <form action="#" class="sign-in-form">
-                <h2 class="title">Request a change</h2>
-                <div class="input-field">
-                  <i class="fas fa-lock"></i>
-                  <input type="text" placeholder="current password" />
-                </div>
-                <div class="input-field">
-                  <i class="fas fa-lock"></i>
-                  <input type="password" placeholder="New Password" />
-                </div>
-                <div class="input-field">
-                    <i class="fas fa-lock"></i>
-                    <input type="password" placeholder="Repeat New Password" />
-                </div>
-                <input type="submit" class="btn" value="Submit Request" />
-              </form>
-              <!--username-change-request:-->
-              <form action="#" class="sign-up-form">
+              <form method="POST" action="https://formspree.io/f/mwkwnwpb" class="sign-in-form" id="pwd-c-r">
                 <h2 class="title">Request a change</h2>
                 <div class="input-field">
                   <i class="fas fa-user"></i>
-                  <input type="text" placeholder="Current Username" />
+                  <input type="text" placeholder="Student name" name="Student name"/>
+                </div>
+                <div class="input-field">
+                  <i class="fas fa-lock"></i>
+                  <input type="text" placeholder="current password" name="current password"/>
+                </div>
+                <div class="input-field">
+                  <i class="fas fa-lock"></i>
+                  <input type="password" placeholder="New Password" name="New Password"/>
+                </div>
+                <div class="input-field">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" placeholder="Repeat New Password" name="Repeat New Password"/>
+                </div>
+                <input type="submit" class="btn" value="Submit Request" id="pwd-submit-button"/>
+              </form>
+              <!--username-change-request:-->
+              <form method="POST" action="https://formspree.io/f/xvovbvoq" class="sign-up-form" id="uid-c-r">
+                <h2 class="title">Request a change</h2>
+                <div class="input-field">
+                  <i class="fas fa-user"></i>
+                  <input type="text" placeholder="Student Name" name="student name" required/>
+                </div>
+                <div class="input-field">
+                  <i class="fas fa-user"></i>
+                  <input type="text" placeholder="Current Username" name="Currect username" required/>
                 </div>
                 <div class="input-field">
                     <i class="fas fa-user"></i>
-                    <input type="text" placeholder="New Username" />
+                    <input type="text" placeholder="New Username" name="New username" required/>
                 </div>
                 <div class="input-field">
                     <i class="fas fa-user"></i>
-                    <input type="text" placeholder="Repeat New Username" />
+                    <input type="text" placeholder="Repeat New Username" name="repeat new username" required/>
                 </div>
-                <input type="submit" class="btn" value="Sign up" />
+                <input type="submit" class="btn" value="Sign up" id="uid-submit-button" />
                 <p class="social-text"></p> <!--do not delete this p-->
                 <div class="social-media">  <!--do not delete this div-->
                 </div>
@@ -81,6 +89,8 @@
         </div>
 
         <script src="js/uid.pdw.request.transition.js"></script>
+        <script src="js/uid.change.request.api.js"></script>
+        <script src="js/pwd-change-request.api.js"></script>
       </body>
     </html>
 </div>
