@@ -27,7 +27,6 @@
 }
 
 .changelogin {
-    color: #ffffff;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -50,4 +49,8 @@
 
 .submitbutton:hover{
     cursor: grab;
+}
+
+.change-login-text {
+    color: rgb(138, 255, 255);
 }
