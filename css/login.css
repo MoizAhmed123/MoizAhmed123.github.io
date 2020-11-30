@@ -26,6 +26,10 @@
     margin-bottom: 100px;
 }
 
+.changelogin {
+    color: #ffffff;
+}
+
 .submitbutton, dddd{
     width: 100%;
     box-sizing: border-box;
