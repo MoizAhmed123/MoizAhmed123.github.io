@@ -1,8 +1,0 @@
-if (form.identifier.value=="zaakir.sheikh") { 
-    console.log(form.identifier.value)
-    if (form.pass.value=="6302009") {
-      window.location.assign('');
-    } else {
-    }
-    } else {
-}
