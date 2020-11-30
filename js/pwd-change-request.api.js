@@ -15,6 +15,7 @@ window.addEventListener("DOMContentLoaded", function() {
 
     function error() {
       status.innerHTML = "Oops! There was a problem.";
+      window.location.assign('https://assalaminstitute.ca/pwd.or.uid.request.failed.html');
     }
 
     // handle the form submission event
