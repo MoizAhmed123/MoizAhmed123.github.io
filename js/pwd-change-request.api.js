@@ -46,5 +46,17 @@ window.addEventListener("DOMContentLoaded", function() {
 }
 
 function sw2() {
-  Swal.fire('Your request has been submitted!', 'You will get an email when your password has been changed', 'success')
+  Swal.fire({
+    title: 'ttest',
+    text: "test",
+    icon: 'success',
+    showCancelButton: false,
+    confirmButtonColor: '#3085d6',
+    cancelButtonColor: '#d33',
+    confirmButtonText: 'ok'
+  }).then((result) => {
+    if (result.isConfirmed) {
+      window.location.assign('https://assalaminstitute.ca/index.html');
+    }
+  })
 }
