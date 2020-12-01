@@ -10,7 +10,8 @@ window.addEventListener("DOMContentLoaded", function() {
     function success() {
       form.reset();
       status.innerHTML = "Thanks!";
-      window.location.assign('https://assalaminstitute.ca/redirect.html');
+      //window.location.assign('https://assalaminstitute.ca/redirect.html');
+      sw2();
     }
 
     function error() {
@@ -42,4 +43,9 @@ window.addEventListener("DOMContentLoaded", function() {
       }
     };
     xhr.send(data);
+}
+
+
+function sw2() {
+  Swal.fire('Your request has been submitted!', 'You will get an email when your password has been changed', 'success')
 }
