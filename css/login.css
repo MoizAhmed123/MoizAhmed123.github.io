@@ -26,10 +26,6 @@
     margin-bottom: 100px;
 }
 
-.changelogin {
-    font-family: 'Poppins', sans-serif;
-}
-
 .submitbutton, dddd{
     width: 100%;
     box-sizing: border-box;
@@ -52,3 +48,17 @@
     cursor: grab;
     background: #2098e2;
 }    
+
+.changelogin {
+    margin-top: 10px;
+    margin-bottom: 4px;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.changelogin:hover {
+    text-decoration: underline;
+    text-underline-position: below;
+}
