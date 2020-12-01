@@ -10,12 +10,12 @@ window.addEventListener("DOMContentLoaded", function() {
     function success() {
       form.reset();
       status.innerHTML = "Thanks!";
-      window.location.assign('https://assalaminstitute.ca/redirect.html');
+      sw2cu();
     }
 
     function error() {
       status.innerHTML = "Oops! There was a problem.";
-      window.location.assign('https://assalaminstitute.ca/pwd.or.uid.request.failed.html');
+      sw2eu();
     }
 
     // handle the form submission event
@@ -42,4 +42,36 @@ window.addEventListener("DOMContentLoaded", function() {
       }
     };
     xhr.send(data);
+  }
+
+  function sw2cu() {
+    Swal.fire({
+      title: 'Your form has been submitted',
+      text: "you will receive an email when your username has been changed",
+      icon: 'success',
+      showCancelButton: false,
+      confirmButtonColor: '#3085d6',
+      cancelButtonColor: '#d33',
+      confirmButtonText: 'ok'
+    }).then((result) => {
+      if (result.isConfirmed) {
+        window.location.assign('https://assalaminstitute.ca/index.html');
+      }
+    })
+  }
+  
+  function sw2eu() {
+    Swal.fire({
+      title: 'oops... Something went wrong',
+      text: "Your request didn't go through, try checking your internet connnection and try again",
+      icon: 'error',
+      showCancelButton: false,
+      confirmButtonColor: '#3085d6',
+      cancelButtonColor: '#d33',
+      confirmButtonText: 'ok'
+    }).then((result) => {
+      if (result.isConfirmed) {
+        window.location.assign('https://assalaminstitute.ca/index.html');
+      }
+    })
   }
