@@ -29,7 +29,7 @@
 }
 
 .submitbutton:hover{
-    cursor: grab;
+    cursor: pointer;
     background: #2098e2;
 }    
 
