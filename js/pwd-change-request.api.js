@@ -10,12 +10,12 @@ window.addEventListener("DOMContentLoaded", function() {
     function success() {
       form.reset();
       status.innerHTML = "Thanks!";
-      sw2c();
+      sw2cp();
     }
 
     function error() {
       status.innerHTML = "Oops! There was a problem.";
-      sw2e();
+      sw2ep();
     }
 
     // handle the form submission event
@@ -44,7 +44,7 @@ window.addEventListener("DOMContentLoaded", function() {
     xhr.send(data);
 }
 
-function sw2c() {
+function sw2cp() {
   Swal.fire({
     title: 'Your form has been submitted',
     text: "you will receive an email when your username has been changed",
@@ -60,7 +60,7 @@ function sw2c() {
   })
 }
 
-function sw2e() {
+function sw2ep() {
   Swal.fire({
     title: 'oops... Something went wrong',
     text: "Your request didn't go through, try checking your internet connnection and try again",
