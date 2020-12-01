@@ -45,9 +45,10 @@
     font-size: 22.5px;
     font-family: 'Poppins', sans-serif;
     font-weight: 150;
+    transition: 0.4s;
 }
 
 .submitbutton:hover{
     cursor: grab;
-}
-
+    background: #2098e2;
+}    
