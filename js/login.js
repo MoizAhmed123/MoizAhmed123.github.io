@@ -79,7 +79,7 @@ alert("Invalid Username and/or Password");
   if (form.identifier.value=="hamdaan.abdulsuboor") { 
     console.log(form.identifier.value)
     if (form.pass.value=="10232008") {
-      window.location.assign('https://assalaminstitute.ca/hamdaan_abdul_saboor.html');
+      window.location.assign('https://assalaminstitute.ca/hamdaan_abdul_suboor.html');
     } else {
     }
     } else {
