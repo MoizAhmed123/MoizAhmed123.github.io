@@ -47,7 +47,7 @@ window.addEventListener("DOMContentLoaded", function() {
 function sw2cp() {
   Swal.fire({
     title: 'Your form has been submitted',
-    text: "you will receive an email when your username has been changed",
+    text: "you will receive an email when your password has been changed",
     icon: 'success',
     showCancelButton: false,
     confirmButtonColor: '#3085d6',
