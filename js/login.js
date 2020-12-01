@@ -74,7 +74,16 @@ alert("Invalid Username and/or Password");
     }
     } else {
 }
-
+ 
+  //BASIL AHMED
+  if (form.identifier.value=="basil.ahmed") { 
+    console.log(form.identifier.value)
+    if (form.pass.value=="6062007") {
+      window.location.assign('https://assalaminstitute.ca/basil_a.html');
+    } else {
+    }
+    } else {
+}
   //HAMDAAN ABDUL SUBOOR
   if (form.identifier.value=="hamdaan.abdulsuboor") { 
     console.log(form.identifier.value)
