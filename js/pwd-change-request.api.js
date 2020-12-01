@@ -45,7 +45,6 @@ window.addEventListener("DOMContentLoaded", function() {
     xhr.send(data);
 }
 
-
 function sw2() {
   Swal.fire('Your request has been submitted!', 'You will get an email when your password has been changed', 'success')
 }
