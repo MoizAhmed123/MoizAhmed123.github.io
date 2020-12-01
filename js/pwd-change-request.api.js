@@ -10,8 +10,7 @@ window.addEventListener("DOMContentLoaded", function() {
     function success() {
       form.reset();
       status.innerHTML = "Thanks!";
-      //window.location.assign('https://assalaminstitute.ca/redirect.html');
-      sw2();
+      sw2c();
     }
 
     function error() {
@@ -45,10 +44,10 @@ window.addEventListener("DOMContentLoaded", function() {
     xhr.send(data);
 }
 
-function sw2() {
+function sw2c() {
   Swal.fire({
-    title: 'ttest',
-    text: "test",
+    title: 'Your form has been submitted',
+    text: "you will receive an email when your username has been changed",
     icon: 'success',
     showCancelButton: false,
     confirmButtonColor: '#3085d6',
