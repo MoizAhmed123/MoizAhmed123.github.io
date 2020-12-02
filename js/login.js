@@ -136,7 +136,17 @@ alert("Invalid Username and/or Password");
     } else {
 }
 
-  //MUHAMMAD MEHRABAN
+  //MARYAM ABDULLAH
+  if (form.identifier.value=="maryam.abdullah") { 
+    console.log(form.identifier.value)
+    if (form.pass.value=="13302010") {
+      window.location.assign('https://assalaminstitute.ca/maryam_a.html');
+    } else {
+    }
+    } else {
+}
+ 
+ //MUHAMMAD MEHRABAN
   if (form.identifier.value=="muhammad.mehraban") { 
     console.log(form.identifier.value)
     if (form.pass.value=="6062009") {
@@ -176,6 +186,16 @@ if (form.identifier.value=="nabil.kalifa") {
   } else {
 }
 
+   //RAASHID ABDULLAH
+  if (form.identifier.value=="raashid.abdullah") { 
+    console.log(form.identifier.value)
+    if (form.pass.value=="10302008") {
+      window.location.assign('https://assalaminstitute.ca/raashid-a.html');
+    } else {
+    }
+    } else {
+}
+ 
   //SADIQ M
   if (form.identifier.value=="sadiq.merchant") { 
     console.log(form.identifier.value)
@@ -185,7 +205,7 @@ if (form.identifier.value=="nabil.kalifa") {
     }
     } else {
 }
-
+ 
   //SAFA ALVI
   if (form.identifier.value=="safa.alvi") { 
     console.log(form.identifier.value)
