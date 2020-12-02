@@ -196,11 +196,31 @@ if (form.identifier.value=="nabil.kalifa") {
     } else {
 }
 
-  //SIDIK K
+  //SIDIK KARATELLA
   if (form.identifier.value=="sidik.karatella") { 
     console.log(form.identifier.value)
     if (form.pass.value=="2162008") {
       window.location.assign('https://assalaminstitute.ca/sidik.html');
+    } else {
+    }
+    } else {
+}
+ 
+   //TAHA ABDULLAH
+  if (form.identifier.value=="taha.abdullah") { 
+    console.log(form.identifier.value)
+    if (form.pass.value=="9202007") {
+      window.location.assign('https://assalaminstitute.ca/taha.html');
+    } else {
+    }
+    } else {
+}
+ 
+   //TALHA KHAN
+  if (form.identifier.value=="talha.khan") { 
+    console.log(form.identifier.value)
+    if (form.pass.value=="5172005") {
+      window.location.assign('https://assalaminstitute.ca/talha.html');
     } else {
     }
     } else {
