@@ -108,7 +108,7 @@ alert("Invalid Username and/or Password");
   //HASSAN
   if (form.identifier.value=="hassan.hussain") { 
     console.log(form.identifier.value)
-    if (form.pass.value=="12162008") {
+    if (form.pass.value=="M7242000") {
       window.location.assign('https://assalaminstitute.ca/hassan_h.html');
     } else {
     }
