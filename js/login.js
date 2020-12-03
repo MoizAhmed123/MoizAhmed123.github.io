@@ -326,6 +326,16 @@ if (form.identifier.value=="nabil.kalifa") {
     }
     } else {
 }
+
+  //BILAL M
+  if (form.identifier.value=="bilal.mohammed") { 
+    console.log(form.identifier.value)
+    if (form.pass.value=="7052004") {
+      window.location.assign('https://assalaminstitute.ca/bilal_m.html');
+    } else {
+    }
+    } else {
+}
     
 
 
