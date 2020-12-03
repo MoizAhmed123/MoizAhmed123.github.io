@@ -316,6 +316,16 @@ if (form.identifier.value=="nabil.kalifa") {
     }
     } else {
 }
+
+  //ZAYD IKRAM
+  if (form.identifier.value=="zayd.ikram") { 
+    console.log(form.identifier.value)
+    if (form.pass.value=="12072009") {
+      window.location.assign('https://assalaminstitute.ca/zaydI.html');
+    } else {
+    }
+    } else {
+}
     
 
 
