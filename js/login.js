@@ -46,6 +46,16 @@ alert("Invalid Username and/or Password");
     } else {
 }
 
+   //ABDULLAH MALEK
+  if (form.identifier.value=="abdullah.malek") { 
+    console.log(form.identifier.value)
+    if (form.pass.value=="12082007") {
+      window.location.assign('https://assalaminstitute.ca/abdullah_malek.html');
+    } else {
+    }
+    } else {
+}  
+ 
   //ABDUR_RAFAY KHAN
   if (form.identifier.value=="abdur-rafay.khan") { 
     console.log(form.identifier.value)
@@ -55,6 +65,7 @@ alert("Invalid Username and/or Password");
     }
     } else {
 }  
+ 
   //ABUZAR
   if (form.identifier.value=="abuzar.popalzai") { 
     console.log(form.identifier.value)
