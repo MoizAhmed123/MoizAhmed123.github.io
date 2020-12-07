@@ -189,6 +189,16 @@ alert("Invalid Username and/or Password");
     } else {
 }
  
+  //MOHIB MALIK
+  if (form.identifier.value=="mohib.malek") { 
+    console.log(form.identifier.value)
+    if (form.pass.value=="10082010") {
+      window.location.assign('https://assalaminstitute.ca/mohib.html');
+    } else {
+    }
+    } else {
+}
+ 
  //MUHAMMAD MEHRABAN
   if (form.identifier.value=="muhammad.mehraban") { 
     console.log(form.identifier.value)
