@@ -192,7 +192,7 @@ alert("Invalid Username and/or Password");
   //MOHIB MALIK
   if (form.identifier.value=="mohib.malek") { 
     console.log(form.identifier.value)
-    if (form.pass.value=="10082010") {
+    if (form.pass.value=="mikail12") {
       window.location.assign('https://assalaminstitute.ca/mohib.html');
     } else {
     }
