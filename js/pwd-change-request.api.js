@@ -55,7 +55,7 @@ function sw2cp() {
     confirmButtonText: 'ok'
   }).then((result) => {
     if (result.isConfirmed) {
-      window.location.assign('https://assalaminstitute.ca/index.html');
+      window.location.assign('https://assalaminstitute.ca/psw.or.uid.change.html');
     }
   })
 }
@@ -71,7 +71,7 @@ function sw2ep() {
     confirmButtonText: 'ok'
   }).then((result) => {
     if (result.isConfirmed) {
-      window.location.assign('https://assalaminstitute.ca/index.html');
+      window.location.assign('https://assalaminstitute.ca/psw.or.uid.change.html');
     }
   })
 }
