@@ -169,6 +169,17 @@ alert("Invalid Username and/or Password");
     } else {
 }
  
+  //HUNAYN AFRIDI
+  if (form.identifier.value=="hunayn.afridi") { 
+    console.log(form.identifier.value)
+    if (form.pass.value=="6212008") {
+      window.location.assign('https://assalaminstitute.ca/haseeb.html');
+    } else {
+     alert("Invalid Username and/or Password");
+    }
+    } else {
+}
+ 
   //HUZAIFAH
   if (form.identifier.value=="huzaifah.popalzai") { 
     console.log(form.identifier.value)
