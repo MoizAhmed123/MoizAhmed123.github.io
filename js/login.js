@@ -375,8 +375,8 @@ if (form.identifier.value=="nabil.kalifa") {
   //YUSUF GONZALEZ
   if (form.identifier.value=="yusuf.gonzalez") { 
     console.log(form.identifier.value)
-    if (form.pass.value=="10302007") {
-      window.location.assign('https://assalaminstitute.ca/yusufA.html');
+    if (form.pass.value=="5252010") {
+      window.location.assign('https://assalaminstitute.ca/yusufG.html');
     } else {
     }
     } else {
