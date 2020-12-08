@@ -340,7 +340,27 @@ if (form.identifier.value=="nabil.kalifa") {
     }
     } else {
 }
-
+ 
+  //UMER CHAUDHARY
+  if (form.identifier.value=="umer.chaudhary") { 
+    console.log(form.identifier.value)
+    if (form.pass.value=="3152010") {
+      window.location.assign('https://assalaminstitute.ca/umerc.html');
+    } else {
+    }
+    } else {
+}
+ 
+  //USMAN CHAUDHARY
+  if (form.identifier.value=="usman.chaudhary") { 
+    console.log(form.identifier.value)
+    if (form.pass.value=="12162011") {
+      window.location.assign('https://assalaminstitute.ca/usmanc.html');
+    } else {
+    }
+    } else {
+}
+ 
   //UTHMAN QADRI
   if (form.identifier.value=="uthman.qadri") { 
     console.log(form.identifier.value)
