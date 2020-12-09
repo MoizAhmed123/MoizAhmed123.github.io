@@ -3,12 +3,36 @@ Username and Password*/
 
 function uid_failed() {
   //this code will run if the username is incorrect
-
+  Swal.fire({
+    title: 'oops...',
+    text: "Your Username is incorrect",
+    icon: 'error',
+    showCancelButton: false,
+    confirmButtonColor: '#3085d6',
+    cancelButtonColor: '#d33',
+    confirmButtonText: false,
+  }).then((result) => {
+    if (result.isConfirmed) {
+      //null
+    }
+  })
 }
 
 function psw_failed() {
   //this code will run if the password is incorrect
-
+  Swal.fire({
+    title: 'oops...',
+    text: "Your Password is incorrect",
+    icon: 'error',
+    showCancelButton: false,
+    confirmButtonColor: '#3085d6',
+    cancelButtonColor: '#d33',
+    confirmButtonText: false,
+  }).then((result) => {
+    if (result.isConfirmed) {
+      //null
+    }
+  })
 }
 
 
