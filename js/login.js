@@ -10,7 +10,7 @@ function uid_failed() {
     showCancelButton: false,
     confirmButtonColor: '#3085d6',
     cancelButtonColor: '#d33',
-    confirmButtonText: false,
+    confirmButtonText: 'ok',
   }).then((result) => {
     if (result.isConfirmed) {
       //null
@@ -27,7 +27,7 @@ function psw_failed() {
     showCancelButton: false,
     confirmButtonColor: '#3085d6',
     cancelButtonColor: '#d33',
-    confirmButtonText: false,
+    confirmButtonText: 'ok',
   }).then((result) => {
     if (result.isConfirmed) {
       //null
