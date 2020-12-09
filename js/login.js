@@ -143,7 +143,18 @@ alert("Invalid Username and/or Password");
       uid_failed();
 }
 
-  //HASEEB AZIZ
+  //HAMZA MOHAMED
+  if (form.identifier.value=="hamza.mohamed") { 
+    console.log(form.identifier.value)
+    if (form.pass.value=="10092009") {
+      window.location.assign('https://assalaminstitute.ca/hamza_m.html');
+    } else {
+     alert("Invalid Username and/or Password");
+    }
+    } else {
+}
+ 
+ //HASEEB AZIZ
   if (form.identifier.value=="haseeb.aziz") { 
     console.log(form.identifier.value)
     if (form.pass.value=="4112006") {
@@ -176,6 +187,17 @@ alert("Invalid Username and/or Password");
     }
     } else {
       uid_failed();
+}
+ 
+  //HUNAYN AFRIDI
+  if (form.identifier.value=="hunayn.afridi") { 
+    console.log(form.identifier.value)
+    if (form.pass.value=="6212008") {
+      window.location.assign('https://assalaminstitute.ca/hunaynA.html');
+    } else {
+     alert("Invalid Username and/or Password");
+    }
+    } else {
 }
  
   //HUZAIFAH
@@ -354,7 +376,27 @@ if (form.identifier.value=="nabil.kalifa") {
     } else {
       uid_failed();
 }
-
+ 
+  //UMER CHAUDHARY
+  if (form.identifier.value=="umer.chaudhary") { 
+    console.log(form.identifier.value)
+    if (form.pass.value=="3152010") {
+      window.location.assign('https://assalaminstitute.ca/umerc.html');
+    } else {
+    }
+    } else {
+}
+ 
+  //USMAN CHAUDHARY
+  if (form.identifier.value=="usman.chaudhary") { 
+    console.log(form.identifier.value)
+    if (form.pass.value=="12162011") {
+      window.location.assign('https://assalaminstitute.ca/usmanc.html');
+    } else {
+    }
+    } else {
+}
+ 
   //UTHMAN QADRI
   if (form.identifier.value=="uthman.qadri") { 
     console.log(form.identifier.value)
@@ -388,6 +430,17 @@ if (form.identifier.value=="nabil.kalifa") {
       uid_failed();
 }
 
+
+  //YUSUF GONZALEZ
+  if (form.identifier.value=="yusuf.gonzalez") { 
+    console.log(form.identifier.value)
+    if (form.pass.value=="5252010") {
+      window.location.assign('https://assalaminstitute.ca/yusufG.html');
+    } else {
+    }
+    } else {
+}
+ 
   //ZAYD IKRAM
   if (form.identifier.value=="zayd.ikram") { 
     console.log(form.identifier.value)
