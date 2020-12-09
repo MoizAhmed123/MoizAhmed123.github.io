@@ -229,9 +229,9 @@ if (form.pass.value=="user") {
 }
  
   //HUNAYN AFRIDI
-  if (form.identifier.value=="hunayn.afridi") { 
+  if (form.identifier.value=="Hunayn.afridi") { 
     console.log(form.identifier.value)
-    if (form.pass.value=="6212008") {
+    if (form.pass.value=="Afridi") {
       window.location.assign('https://assalaminstitute.ca/hunaynA.html');
     } else {
       psw_failed();
@@ -466,7 +466,19 @@ if (form.identifier.value=="nabil.kalifa") {
     } else {
       uid_failed();
 }
-
+ 
+ //YAHHYA MEHRABAN
+  if (form.identifier.value=="yahhya.mehraban") { 
+    console.log(form.identifier.value)
+    if (form.pass.value=="9222011") {
+      window.location.assign('https://assalaminstitute.ca/yahhyaM.html');
+    } else {
+      psw_failed();
+    }
+    } else {
+      uid_failed();
+}
+  
   //YOUSUF MEHMOOD
   if (form.identifier.value=="yousuf.mehmood") { 
     console.log(form.identifier.value)
