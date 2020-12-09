@@ -1,7 +1,13 @@
 /*This Script allows people to enter by using a form that asks for a
 Username and Password*/
 
+function uid_failed() {
 
+}
+
+function psw_failed() {
+
+}
 
 
 function pasuser(form) {
@@ -24,6 +30,7 @@ alert("Invalid Username and/or Password");
     } else {
     }
     } else {
+      uid_failed();
   }
 
   //ABBAS ALVI
@@ -34,6 +41,7 @@ alert("Invalid Username and/or Password");
     } else {
     }
     } else {
+      uid_failed();
   }
 
   //ABDUSSAMAD SIDDIQI
@@ -44,6 +52,7 @@ alert("Invalid Username and/or Password");
     } else {
     }
     } else {
+      uid_failed();
 }
 
    //ABDULLAH MALEK
@@ -54,6 +63,7 @@ alert("Invalid Username and/or Password");
     } else {
     }
     } else {
+      uid_failed();
 }  
  
   //ABDUR_RAFAY KHAN
@@ -64,6 +74,7 @@ alert("Invalid Username and/or Password");
     } else {
     }
     } else {
+      uid_failed();
 }  
  
   //ABUZAR
@@ -74,6 +85,7 @@ alert("Invalid Username and/or Password");
     } else {
     }
     } else {
+      uid_failed();
 }
 
   //AFFAN SHAIKH
@@ -84,6 +96,7 @@ alert("Invalid Username and/or Password");
     } else {
     }
     } else {
+      uid_failed();
 }
  
   //AFNAN MIRZA
@@ -94,6 +107,7 @@ alert("Invalid Username and/or Password");
     } else {
     }
     } else {
+      uid_failed();
 }
  
   //BASIL AHMED
@@ -104,6 +118,7 @@ alert("Invalid Username and/or Password");
     } else {
     }
     } else {
+      uid_failed();
 }
  
    //BILAL M
@@ -114,6 +129,7 @@ alert("Invalid Username and/or Password");
     } else {
     }
     } else {
+      uid_failed();
 }
  
   //HAMDAAN ABDUL SUBOOR
@@ -124,6 +140,7 @@ alert("Invalid Username and/or Password");
     } else {
     }
     } else {
+      uid_failed();
 }
 
   //HASEEB AZIZ
@@ -135,6 +152,7 @@ alert("Invalid Username and/or Password");
      alert("Invalid Username and/or Password");
     }
     } else {
+      uid_failed();
 }
 
   //HASSAN
@@ -145,6 +163,7 @@ alert("Invalid Username and/or Password");
     } else {
     }
     } else {
+      uid_failed();
 }
  
   //HUMDAAN SYED
@@ -156,6 +175,7 @@ alert("Invalid Username and/or Password");
      alert("Invalid Username and/or Password");
     }
     } else {
+      uid_failed();
 }
  
   //HUZAIFAH
@@ -167,6 +187,7 @@ alert("Invalid Username and/or Password");
      alert("Invalid Username and/or Password");
     }
     } else {
+      uid_failed();
 }
 
   //IRFAN SH.
@@ -177,6 +198,7 @@ alert("Invalid Username and/or Password");
     } else {
     }
     } else {
+      uid_failed();
 }
 
   //MARYAM ABDULLAH
@@ -187,6 +209,7 @@ alert("Invalid Username and/or Password");
     } else {
     }
     } else {
+      uid_failed();
 }
  
   //MOHIB MALIK
@@ -197,6 +220,7 @@ alert("Invalid Username and/or Password");
     } else {
     }
     } else {
+      uid_failed();
 }
  
  //MUHAMMAD MEHRABAN
@@ -207,6 +231,7 @@ alert("Invalid Username and/or Password");
     } else {
     }
     } else {
+      uid_failed();
 }
 
   //MUNIR KHAN
@@ -217,6 +242,7 @@ alert("Invalid Username and/or Password");
     } else {   
     }
     } else {
+      uid_failed();
 }
 
   //MUSTAFA KHAN
@@ -227,6 +253,7 @@ if (form.identifier.value=="mustafa.khan") {
   } else {
   }
   } else {
+    uid_failed();
 }
 
   //NABIL K
@@ -237,6 +264,7 @@ if (form.identifier.value=="nabil.kalifa") {
   } else {
   }
   } else {
+    uid_failed();
 }
 
    //RAASHID ABDULLAH
@@ -247,6 +275,7 @@ if (form.identifier.value=="nabil.kalifa") {
     } else {
     }
     } else {
+      uid_failed();
 }
  
   //RAYAN MIRZA
@@ -257,6 +286,7 @@ if (form.identifier.value=="nabil.kalifa") {
     } else {
     }
     } else {
+      uid_failed();
 }
  
   //SADIQ M
@@ -267,6 +297,7 @@ if (form.identifier.value=="nabil.kalifa") {
     } else {
     }
     } else {
+      uid_failed();
 }
  
   //SAFA ALVI
@@ -277,6 +308,7 @@ if (form.identifier.value=="nabil.kalifa") {
     } else {
     }
     } else {
+      uid_failed();
 }
 
   //SIDIK KARATELLA
@@ -287,6 +319,7 @@ if (form.identifier.value=="nabil.kalifa") {
     } else {
     }
     } else {
+      uid_failed();
 }
  
    //TAHA ABDULLAH
@@ -297,6 +330,7 @@ if (form.identifier.value=="nabil.kalifa") {
     } else {
     }
     } else {
+      uid_failed();
 }
  
    //TALHA KHAN
@@ -307,6 +341,7 @@ if (form.identifier.value=="nabil.kalifa") {
     } else {
     }
     } else {
+      uid_failed();
 }
 
   //UMAR SYED
@@ -317,6 +352,7 @@ if (form.identifier.value=="nabil.kalifa") {
     } else {
     }
     } else {
+      uid_failed();
 }
 
   //UTHMAN QADRI
@@ -327,6 +363,7 @@ if (form.identifier.value=="nabil.kalifa") {
     } else {
     }
     } else {
+      uid_failed();
 }
 
   //YOUSUF MEHMOOD
@@ -337,6 +374,7 @@ if (form.identifier.value=="nabil.kalifa") {
     } else {
     }
     } else {
+      uid_failed();
 }
 
   //YUSUF AMJAD
@@ -347,6 +385,7 @@ if (form.identifier.value=="nabil.kalifa") {
     } else {
     }
     } else {
+      uid_failed();
 }
 
   //ZAYD IKRAM
@@ -357,6 +396,7 @@ if (form.identifier.value=="nabil.kalifa") {
     } else {
     }
     } else {
+      uid_failed();
 }
     
 
