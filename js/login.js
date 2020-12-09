@@ -2,10 +2,12 @@
 Username and Password*/
 
 function uid_failed() {
+  //this code will run if the username is incorrect
 
 }
 
 function psw_failed() {
+  //this code will run if the password is incorrect
 
 }
 
