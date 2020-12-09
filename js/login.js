@@ -18,7 +18,7 @@ console.log(form.identifier.value)
 if (form.pass.value=="user") { 
   window.location.assign('https://assalaminstitute.ca/contact.html');
 } else {
-alert("Invalid Username and/or Password");
+  psw_failed();
 }
 //test js end
 } else {
@@ -28,6 +28,7 @@ alert("Invalid Username and/or Password");
     if (form.pass.value=="6302009") {
       window.location.assign('https://assalaminstitute.ca/zaakirS.html');
     } else {
+      psw_failed();
     }
     } else {
       uid_failed();
@@ -39,6 +40,7 @@ alert("Invalid Username and/or Password");
     if (form.pass.value=="10272008") {
       window.location.assign('https://assalaminstitute.ca/abbas_alvi.html');
     } else {
+      psw_failed();
     }
     } else {
       uid_failed();
@@ -50,6 +52,7 @@ alert("Invalid Username and/or Password");
     if (form.pass.value=="12072008") {
       window.location.assign('https://assalaminstitute.ca/abdussamad_siddiqi.html');
     } else {
+      psw_failed();
     }
     } else {
       uid_failed();
@@ -61,6 +64,7 @@ alert("Invalid Username and/or Password");
     if (form.pass.value=="12082007") {
       window.location.assign('https://assalaminstitute.ca/abdullah_malek.html');
     } else {
+      psw_failed();
     }
     } else {
       uid_failed();
@@ -72,6 +76,7 @@ alert("Invalid Username and/or Password");
     if (form.pass.value=="3242009") {
       window.location.assign('https://assalaminstitute.ca/abdur-rafay_khan.html');
     } else {
+      psw_failed();
     }
     } else {
       uid_failed();
@@ -83,6 +88,7 @@ alert("Invalid Username and/or Password");
     if (form.pass.value=="4142010") {
       window.location.assign('https://assalaminstitute.ca/abuzar.html');
     } else {
+      psw_failed();
     }
     } else {
       uid_failed();
@@ -94,6 +100,7 @@ alert("Invalid Username and/or Password");
     if (form.pass.value=="10262006") {
       window.location.assign('https://assalaminstitute.ca/affan_s.html');
     } else {
+      psw_failed();
     }
     } else {
       uid_failed();
@@ -105,6 +112,7 @@ alert("Invalid Username and/or Password");
     if (form.pass.value=="6032011") {
       window.location.assign('https://assalaminstitute.ca/afnan_m.html');
     } else {
+      psw_failed();
     }
     } else {
       uid_failed();
@@ -116,6 +124,7 @@ alert("Invalid Username and/or Password");
     if (form.pass.value=="6062007") {
       window.location.assign('https://assalaminstitute.ca/basil_a.html');
     } else {
+      psw_failed();
     }
     } else {
       uid_failed();
@@ -127,6 +136,7 @@ alert("Invalid Username and/or Password");
     if (form.pass.value=="7052004") {
       window.location.assign('https://assalaminstitute.ca/bilal_m.html');
     } else {
+      psw_failed();
     }
     } else {
       uid_failed();
@@ -138,6 +148,7 @@ alert("Invalid Username and/or Password");
     if (form.pass.value=="10232008") {
       window.location.assign('https://assalaminstitute.ca/hamdaan_abdul_suboor.html');
     } else {
+      psw_failed();
     }
     } else {
       uid_failed();
@@ -149,9 +160,10 @@ alert("Invalid Username and/or Password");
     if (form.pass.value=="10092009") {
       window.location.assign('https://assalaminstitute.ca/hamza_m.html');
     } else {
-     alert("Invalid Username and/or Password");
+      psw_failed();
     }
     } else {
+      uid_failed();
 }
  
  //HASEEB AZIZ
@@ -160,7 +172,7 @@ alert("Invalid Username and/or Password");
     if (form.pass.value=="4112006") {
       window.location.assign('https://assalaminstitute.ca/haseeb.html');
     } else {
-     alert("Invalid Username and/or Password");
+      psw_failed();
     }
     } else {
       uid_failed();
@@ -172,6 +184,7 @@ alert("Invalid Username and/or Password");
     if (form.pass.value=="M7242000") {
       window.location.assign('https://assalaminstitute.ca/hassan_h.html');
     } else {
+      psw_failed();
     }
     } else {
       uid_failed();
@@ -183,7 +196,7 @@ alert("Invalid Username and/or Password");
     if (form.pass.value=="1192012") {
       window.location.assign('https://assalaminstitute.ca/humdaanS.html');
     } else {
-     alert("Invalid Username and/or Password");
+      psw_failed();
     }
     } else {
       uid_failed();
@@ -195,7 +208,7 @@ alert("Invalid Username and/or Password");
     if (form.pass.value=="6212008") {
       window.location.assign('https://assalaminstitute.ca/hunaynA.html');
     } else {
-     alert("Invalid Username and/or Password");
+      psw_failed();
     }
     } else {
 }
@@ -206,7 +219,7 @@ alert("Invalid Username and/or Password");
     if (form.pass.value=="7152012") {
       window.location.assign('https://assalaminstitute.ca/huzaifah_popalzai.html');
     } else {
-     alert("Invalid Username and/or Password");
+      psw_failed();
     }
     } else {
       uid_failed();
@@ -218,6 +231,7 @@ alert("Invalid Username and/or Password");
     if (form.pass.value=="4012010") {
       window.location.assign('https://assalaminstitute.ca/irfan.html');
     } else {
+      psw_failed();
     }
     } else {
       uid_failed();
@@ -229,6 +243,7 @@ alert("Invalid Username and/or Password");
     if (form.pass.value=="13302010") {
       window.location.assign('https://assalaminstitute.ca/maryam_a.html');
     } else {
+      psw_failed();
     }
     } else {
       uid_failed();
@@ -240,6 +255,7 @@ alert("Invalid Username and/or Password");
     if (form.pass.value=="mikail12") {
       window.location.assign('https://assalaminstitute.ca/mohib.html');
     } else {
+      psw_failed();
     }
     } else {
       uid_failed();
@@ -251,6 +267,7 @@ alert("Invalid Username and/or Password");
     if (form.pass.value=="6062009") {
       window.location.assign('https://assalaminstitute.ca/muhammadm.html');
     } else {
+      psw_failed();
     }
     } else {
       uid_failed();
@@ -262,6 +279,7 @@ alert("Invalid Username and/or Password");
     if (form.pass.value=="1092009") {
       window.location.assign('https://assalaminstitute.ca/munir.html');
     } else {   
+      psw_failed();
     }
     } else {
       uid_failed();
@@ -273,6 +291,7 @@ if (form.identifier.value=="mustafa.khan") {
   if (form.pass.value=="3152008") {
     window.location.assign('https://assalaminstitute.ca/mustafa.html');
   } else {
+    psw_failed();
   }
   } else {
     uid_failed();
@@ -284,6 +303,7 @@ if (form.identifier.value=="nabil.kalifa") {
   if (form.pass.value=="11122009") {
     window.location.assign('https://assalaminstitute.ca/nabil.html');
   } else {
+    psw_failed();
   }
   } else {
     uid_failed();
@@ -295,6 +315,7 @@ if (form.identifier.value=="nabil.kalifa") {
     if (form.pass.value=="10302008") {
       window.location.assign('https://assalaminstitute.ca/raashid-a.html');
     } else {
+      psw_failed();
     }
     } else {
       uid_failed();
@@ -306,6 +327,7 @@ if (form.identifier.value=="nabil.kalifa") {
     if (form.pass.value=="6102009") {
       window.location.assign('https://assalaminstitute.ca/rayan-m.html');
     } else {
+      psw_failed();
     }
     } else {
       uid_failed();
@@ -317,6 +339,7 @@ if (form.identifier.value=="nabil.kalifa") {
     if (form.pass.value=="12202007") {
       window.location.assign('https://assalaminstitute.ca/sadiq.html');
     } else {
+      psw_failed();
     }
     } else {
       uid_failed();
@@ -328,6 +351,7 @@ if (form.identifier.value=="nabil.kalifa") {
     if (form.pass.value=="5192010") {
       window.location.assign('https://assalaminstitute.ca/safa.html');
     } else {
+      psw_failed();
     }
     } else {
       uid_failed();
@@ -339,6 +363,7 @@ if (form.identifier.value=="nabil.kalifa") {
     if (form.pass.value=="2162008") {
       window.location.assign('https://assalaminstitute.ca/sidik.html');
     } else {
+      psw_failed();
     }
     } else {
       uid_failed();
@@ -350,6 +375,7 @@ if (form.identifier.value=="nabil.kalifa") {
     if (form.pass.value=="9202007") {
       window.location.assign('https://assalaminstitute.ca/taha.html');
     } else {
+      psw_failed();
     }
     } else {
       uid_failed();
@@ -361,6 +387,7 @@ if (form.identifier.value=="nabil.kalifa") {
     if (form.pass.value=="5172005") {
       window.location.assign('https://assalaminstitute.ca/talha.html');
     } else {
+      psw_failed();
     }
     } else {
       uid_failed();
@@ -372,6 +399,7 @@ if (form.identifier.value=="nabil.kalifa") {
     if (form.pass.value=="1142006") {
       window.location.assign('https://assalaminstitute.ca/umar_syed.html');
     } else {
+      psw_failed();
     }
     } else {
       uid_failed();
@@ -383,8 +411,10 @@ if (form.identifier.value=="nabil.kalifa") {
     if (form.pass.value=="3152010") {
       window.location.assign('https://assalaminstitute.ca/umerc.html');
     } else {
+      psw_failed();
     }
     } else {
+      uid_failed();
 }
  
   //USMAN CHAUDHARY
@@ -393,8 +423,10 @@ if (form.identifier.value=="nabil.kalifa") {
     if (form.pass.value=="12162011") {
       window.location.assign('https://assalaminstitute.ca/usmanc.html');
     } else {
+      psw_failed();
     }
     } else {
+      uid_failed();
 }
  
   //UTHMAN QADRI
@@ -403,6 +435,7 @@ if (form.identifier.value=="nabil.kalifa") {
     if (form.pass.value=="9202008") {
       window.location.assign('https://assalaminstitute.ca/uthmanq.html');
     } else {
+      psw_failed();
     }
     } else {
       uid_failed();
@@ -414,6 +447,7 @@ if (form.identifier.value=="nabil.kalifa") {
     if (form.pass.value=="11112007") {
       window.location.assign('https://assalaminstitute.ca/yousufM.html');
     } else {
+      psw_failed();
     }
     } else {
       uid_failed();
@@ -425,6 +459,7 @@ if (form.identifier.value=="nabil.kalifa") {
     if (form.pass.value=="10302007") {
       window.location.assign('https://assalaminstitute.ca/yusufA.html');
     } else {
+      psw_failed();
     }
     } else {
       uid_failed();
@@ -437,6 +472,7 @@ if (form.identifier.value=="nabil.kalifa") {
     if (form.pass.value=="5252010") {
       window.location.assign('https://assalaminstitute.ca/yusufG.html');
     } else {
+      psw_failed();
     }
     } else {
 }
@@ -447,6 +483,7 @@ if (form.identifier.value=="nabil.kalifa") {
     if (form.pass.value=="12072009") {
       window.location.assign('https://assalaminstitute.ca/zaydI.html');
     } else {
+      psw_failed();
     }
     } else {
       uid_failed();
