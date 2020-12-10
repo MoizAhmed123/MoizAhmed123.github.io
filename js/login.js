@@ -262,6 +262,19 @@ if (form.pass.value=="user") {
     } else {
       uid_failed();
 }
+  
+  
+  //LUQMAAN SHAIKH
+  if (form.identifier.value=="luqmaan.shaikh") { 
+    console.log(form.identifier.value)
+    if (form.pass.value=="1312008") {
+      window.location.assign('https://assalaminstitute.ca/luqmaanS.html');
+    } else {
+      psw_failed();
+    }
+    } else {
+      uid_failed();
+}
 
   //MARYAM ABDULLAH
   if (form.identifier.value=="maryam.abdullah") { 
