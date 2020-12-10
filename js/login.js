@@ -42,7 +42,7 @@ function pasuser(form) {
 if (form.identifier.value=="admin") { 
 console.log(form.identifier.value)
 if (form.pass.value=="user") { 
-  window.location.assign('https://assalaminstitute.ca/contact.html');
+  window.location.assign('https://assalaminstitute.ca/resetsheet.html');
 } else {
   psw_failed();
 }
