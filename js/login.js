@@ -279,7 +279,7 @@ if (form.pass.value=="user") {
   //LUQMAAN SHAIKH
   if (form.identifier.value=="luqmaan.shaikh") { 
     console.log(form.identifier.value)
-    if (form.pass.value=="1312008") {
+    if (form.pass.value=="Luqm@@n01") {
       window.location.assign('https://assalaminstitute.ca/luqmaanS.html');
     } else {
       psw_failed();
