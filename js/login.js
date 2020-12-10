@@ -262,6 +262,18 @@ if (form.pass.value=="user") {
     } else {
       uid_failed();
 }
+
+  //ISMAEL SHERIF
+  if (form.identifier.value=="ismael.sherif") { 
+    console.log(form.identifier.value)
+    if (form.pass.value=="4022010") {
+      window.location.assign('https://assalaminstitute.ca/ismael.html');
+    } else {
+      psw_failed();
+    }
+    } else {
+      uid_failed();
+}
   
   
   //LUQMAAN SHAIKH
