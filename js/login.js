@@ -311,6 +311,18 @@ if (form.pass.value=="user") {
     } else {
       uid_failed();
 }
+   
+ //MUHAMMAD KHANDWALLA
+  if (form.identifier.value=="muhammad.khandwalla") { 
+    console.log(form.identifier.value)
+    if (form.pass.value=="6062009") {
+      window.location.assign('https://assalaminstitute.ca/muhammad-k.html');
+    } else {
+      psw_failed();
+    }
+    } else {
+      uid_failed();
+}
  
  //MUHAMMAD MEHRABAN
   if (form.identifier.value=="muhammad.mehraban") { 
