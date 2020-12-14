@@ -562,6 +562,18 @@ if (form.identifier.value=="nabil.kalifa") {
     }
     } else {
 }
+    
+  //ZAIGHAM KHAWAJA
+  if (form.identifier.value=="zaigham.khawaja") { 
+    console.log(form.identifier.value)
+    if (form.pass.value=="8062010") {
+      window.location.assign('https://assalaminstitute.ca/zaigham.html');
+    } else {
+      psw_failed();
+    }
+    } else {
+      uid_failed();
+}
   
   //ZAYD IKRAM
   if (form.identifier.value=="zayd.ikram") { 
