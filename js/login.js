@@ -315,7 +315,7 @@ if (form.pass.value=="user") {
  //MUHAMMAD KHANDWALLA
   if (form.identifier.value=="muhammad.khandwalla") { 
     console.log(form.identifier.value)
-    if (form.pass.value=="6062009") {
+    if (form.pass.value=="2142010") {
       window.location.assign('https://assalaminstitute.ca/muhammad-k.html');
     } else {
       psw_failed();
