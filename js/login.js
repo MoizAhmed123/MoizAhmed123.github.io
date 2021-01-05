@@ -35,6 +35,13 @@ function psw_failed() {
   })
 }
 
+function checkIfUserIsLoggedIn() {
+  firebase.auth().onAuthStateChanged(function(user) {
+    if(!user){
+      window.location.assign('https://assalaminstitute.ca/login.html')
+    }
+  })
+}
 
 function pasuser(form) {
 
