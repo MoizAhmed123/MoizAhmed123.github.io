@@ -43,7 +43,7 @@ function checkIfUserIsLoggedIn() {
   })
 }
 
-function pasuser(form) {
+function login(form) {
 
 
 
