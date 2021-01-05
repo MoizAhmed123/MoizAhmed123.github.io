@@ -38,6 +38,72 @@ function psw_failed() {
 
 function pasuser(form) {
 
+
+
+  //Google firebase testing
+  firebase.auth().onAuthStateChanged(function(user) {
+    //Define Variables
+    const URL = 'https://assalaminstitute.ca/resetsheet.html';
+    const UID = 'ZFx8Ao86c9UJY5mbCWaVGlK4Uk22';
+
+
+    if(user){
+      if(user.uid === UID) return window.location.assign(URL);
+    } else {
+      let email = document.getElementById("emailInput1").value;
+      let password = document.getElementById("passwordInput1").value;
+      firebase.auth().signInWithEmailAndPassword(email, password).then((user) => {
+        Swal.fire({
+          title: `${email} Logged in`,
+          timer: 10000,
+          timerProgressBar: true,
+          didOpen: () => {
+            timerInterval = setInterval(() => {
+              const content = Swal.getContent()
+              if (content) {
+                const b = content.querySelector('b')
+                if (b) {
+                  b.textContent = Swal.getTimerLeft()
+                }
+              }
+            }, 100)
+          },
+          willClose: () => {
+            clearInterval(timerInterval)
+          }
+        }).then((result) => {
+          window.location.assign(URL);
+        })
+      }).catch((error) => {
+        Swal.fire({
+          title: error.message,
+          timer: 10000,
+          timerProgressBar: true,
+          didOpen: () => {
+            timerInterval = setInterval(() => {
+              const content = Swal.getContent()
+              if (content) {
+                const b = content.querySelector('b')
+                if (b) {
+                  b.textContent = Swal.getTimerLeft()
+                }
+              }
+            }, 100)
+          },
+          willClose: () => {
+            clearInterval(timerInterval)
+          }
+        }).then((result) => {
+          return;
+        })
+      })
+    }
+  })
+
+
+
+
+
  //use these logins for test purposes 
 if (form.identifier.value=="admin") { 
 console.log(form.identifier.value)
@@ -591,4 +657,7 @@ if (form.identifier.value=="nabil.kalifa") {
 
 //end of login.js there should be no else statments using last 2 brackets
   }
+
+  
+
 }
