@@ -118,33 +118,13 @@ function login() {
   checkUser('IsmVwhDQqDOWpQ3EIXKBabpPVD73', 'bilal_m.html'); //Bilal muhammad
   checkUser('OmnvjCIScSUTS7J86aS3qj4gG8L2', 'hamdaan_abdul_suboor.html'); //Hamdaan abdul saboor
   checkUser('YzrbedTmcNNtWCb3uB61x7wdNR72', 'hamza_m.html'); //Hamza Muhammad
+  checkUser('wojaYJDAwxgQykpT6i4k1dQPj1g1', 'haseeb.html'); //Haseeb Aziz
+  checkUser('epr7BJEJ0Lg57tQuTrCE5uFodmE3', 'hassan_h.html'); //Hassan Hussain
+
+
 
 
 /** dont uncomment yet 
- 
- //HASEEB AZIZ
-  if (form.identifier.value=="haseeb.aziz") { 
-    console.log(form.identifier.value)
-    if (form.pass.value=="4112006") {
-      window.location.assign('https://assalaminstitute.ca/haseeb.html');
-    } else {
-      psw_failed();
-    }
-    } else {
-      uid_failed();
-}
-
-  //HASSAN
-  if (form.identifier.value=="hassan.hussain") { 
-    console.log(form.identifier.value)
-    if (form.pass.value=="M7242000") {
-      window.location.assign('https://assalaminstitute.ca/hassan_h.html');
-    } else {
-      psw_failed();
-    }
-    } else {
-      uid_failed();
-}
  
   //HUMDAAN SYED
   if (form.identifier.value=="humdaan.syed") { 
