@@ -43,19 +43,10 @@ function checkIfUserIsLoggedIn() {
   })
 }
 
-function login(form) {
-
-
-
-  //Google firebase testing
+function checkUser(UID, URL){
   firebase.auth().onAuthStateChanged(function(user) {
-    //Define Variables
-    const URL = 'https://assalaminstitute.ca/resetsheet.html';
-    const UID = 'ZFx8Ao86c9UJY5mbCWaVGlK4Uk22';
-
-
     if(user){
-      if(user.uid === UID) return window.location.assign(URL);
+      if(user.uid === UID) return window.location = URL
     } else {
       let email = document.getElementById("emailInput1").value;
       let password = document.getElementById("passwordInput1").value;
@@ -79,7 +70,7 @@ function login(form) {
             clearInterval(timerInterval)
           }
         }).then((result) => {
-          window.location.assign(URL);
+            window.location = URl
         })
       }).catch((error) => {
         Swal.fire({
@@ -106,9 +97,13 @@ function login(form) {
       })
     }
   })
+}
+
+function login(form) {
 
 
 
+  checkUser('ZFx8Ao86c9UJY5mbCWaVGlK4Uk22', 'https://assalaminstitute.ca/resetsheet.html');
 
 
  //use these logins for test purposes 
