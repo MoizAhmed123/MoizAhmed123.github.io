@@ -1,40 +1,3 @@
-/*This Script allows people to enter by using a form that asks for a
-Username and Password*/
-
-function uid_failed() {
-  //this code will run if the username is incorrect
-  Swal.fire({
-    title: 'oops...',
-    text: "Your Username is incorrect",
-    icon: 'error',
-    showCancelButton: false,
-    confirmButtonColor: '#3085d6',
-    cancelButtonColor: '#d33',
-    confirmButtonText: 'ok',
-  }).then((result) => {
-    if (result.isConfirmed) {
-      //null
-    }
-  })
-}
-
-function psw_failed() {
-  //this code will run if the password is incorrect
-  Swal.fire({
-    title: 'oops...',
-    text: "Your Password is incorrect",
-    icon: 'error',
-    showCancelButton: false,
-    confirmButtonColor: '#3085d6',
-    cancelButtonColor: '#d33',
-    confirmButtonText: 'ok',
-  }).then((result) => {
-    if (result.isConfirmed) {
-      //null
-    }
-  })
-}
-
 function checkIfUserIsLoggedIn() {
   firebase.auth().onAuthStateChanged(function(user) {
     if(!user){
@@ -99,11 +62,45 @@ function checkUser(UID, URL){
   })
 }
 
+function logout(){
+  firebase.auth().onAuthStateChanged(function(user) {
+      if(user){
+          firebase.auth().signOut().then(() => {
+              window.location="login.html"
+            }).catch((error) => {
+              Swal.fire({
+                  title: error.message,
+                  timer: 10000,
+                  timerProgressBar: true,
+                  didOpen: () => {
+                    timerInterval = setInterval(() => {
+                      const content = Swal.getContent()
+                      if (content) {
+                        const b = content.querySelector('b')
+                        if (b) {
+                          b.textContent = Swal.getTimerLeft()
+                        }
+                      }
+                    }, 100)
+                  },
+                  willClose: () => {
+                    clearInterval(timerInterval)
+                  }
+              }).then((result) => {
+                return;
+              })
+          });
+      } else {
+          window.location="login.html"
+      }
+  })
+}
+
 function login(form) {
 
 
 
-  checkUser('ZFx8Ao86c9UJY5mbCWaVGlK4Uk22', 'https://assalaminstitute.ca/resetsheet.html');
+  checkUser('ZFx8Ao86c9UJY5mbCWaVGlK4Uk22', 'resetsheet.html');
 
 
  //use these logins for test purposes 
