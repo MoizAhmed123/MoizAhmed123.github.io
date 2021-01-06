@@ -6,6 +6,14 @@ function checkIfUserIsLoggedIn() {
   })
 }
 
+function checkIfUserIsLoggedOut() {
+  firebase.auth().onAuthStateChanged(function(user) {
+    if(user){
+      login();
+    }
+  })
+}
+
 function checkUser(UID, URL){
   firebase.auth().onAuthStateChanged(function(user) {
     if(user){
@@ -96,7 +104,7 @@ function logout(){
   })
 }
 
-function login(form) {
+function login() {
 
 
 

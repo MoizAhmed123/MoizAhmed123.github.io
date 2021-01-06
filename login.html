@@ -44,8 +44,8 @@
     </script>
 
     <!--Google Firebase-->
-    <script  defer src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
-    <script  defer src="https://www.gstatic.com/firebasejs/8.2.1/firebase-auth.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/8.2.1/firebase-auth.js"></script>
     <script defer src="js/firebase.js"></script>
     <script defer src="js/login.js"> </script>
   </head>
@@ -118,7 +118,7 @@
   <script src="/server.js"></script>
   <title></title>
 </head>
-<body>
+<body onload="checkIfUserIsLoggedOut()">
   <div class="box">
 <form>
       <div class="inputBox">
@@ -127,7 +127,7 @@
       <div class="inputBox">
 	      <center><input type="password" placeholder= "Password" name="pass" class="i-b" id="passwordInput1" required=""></center>
 	       </div>
-        <center><input type="button" value="Login" onclick="login(form)" class="submitbutton"></center>
+        <center><input type="button" value="Login" onclick="login()" class="submitbutton"></center>
         <div class="changelogin">
           <center><a class="nav-link" href= https://assalaminstitute.ca/psw.or.uid.change.html " class="change-login-text" style="color: #a3a3a3;">Change Username or Password</center></a>
         </div>
