@@ -117,22 +117,10 @@ function login() {
   checkUser('0bHaYkVi04UWRBSWj4n5k2EqjE03', 'basil_a.html'); //Basil Ahmed
   checkUser('IsmVwhDQqDOWpQ3EIXKBabpPVD73', 'bilal_m.html'); //Bilal muhammad
   checkUser('OmnvjCIScSUTS7J86aS3qj4gG8L2', 'hamdaan_abdul_suboor.html'); //Hamdaan abdul saboor
-
+  checkUser('YzrbedTmcNNtWCb3uB61x7wdNR72', 'hamza_m.html'); //Hamza Muhammad
 
 
 /** dont uncomment yet 
-
-  //HAMZA MOHAMED
-  if (form.identifier.value=="hamza.mohamed") { 
-    console.log(form.identifier.value)
-    if (form.pass.value=="10092009") {
-      window.location.assign('https://assalaminstitute.ca/hamza_m.html');
-    } else {
-      psw_failed();
-    }
-    } else {
-      uid_failed();
-}
  
  //HASEEB AZIZ
   if (form.identifier.value=="haseeb.aziz") { 
