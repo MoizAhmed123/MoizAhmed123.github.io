@@ -109,45 +109,13 @@ function login() {
   checkUser('N5B94byvBUddRH53kQ7Yhhp1nAC3', 'zaakirS.html'); //Zaakir
   checkUser('uEcv5sBHqDfxVf0IiCkdBSzzITX2', 'abbas_alvi.html'); //abbas
   checkUser('ppDqqgHmXchKk7dGS90hkQz9yUq1', 'abdussamad_siddiqi.html'); //abdussamad
+  checkUser('yL8qHbpfUFZD7045BvYmZybtXR73', 'abdullah_malek.html'); //Abdullah Malek
+  checkUser('pts6EzfsQyQWhxD7onzvU4pBehh1', 'abdur-rafay_khan.html'); //Abdurrafay
+
+
 
 
 /** dont uncomment yet 
-
-  //ABDUSSAMAD SIDDIQI
-  if (form.identifier.value=="abdussamad.siddiqi") { 
-    console.log(form.identifier.value)
-    if (form.pass.value=="12072008") {
-      window.location.assign('https://assalaminstitute.ca/abdussamad_siddiqi.html');
-    } else {
-      psw_failed();
-    }
-    } else {
-      uid_failed();
-}
-
-   //ABDULLAH MALEK
-  if (form.identifier.value=="abdullah.malek") { 
-    console.log(form.identifier.value)
-    if (form.pass.value=="12082007") {
-      window.location.assign('https://assalaminstitute.ca/abdullah_malek.html');
-    } else {
-      psw_failed();
-    }
-    } else {
-      uid_failed();
-}  
- 
-  //ABDUR_RAFAY KHAN
-  if (form.identifier.value=="abdur-rafay.khan") { 
-    console.log(form.identifier.value)
-    if (form.pass.value=="3242009") {
-      window.location.assign('https://assalaminstitute.ca/abdur-rafay_khan.html');
-    } else {
-      psw_failed();
-    }
-    } else {
-      uid_failed();
-}  
  
   //ABUZAR
   if (form.identifier.value=="abuzar.popalzai") { 
