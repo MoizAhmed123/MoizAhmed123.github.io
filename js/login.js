@@ -14,7 +14,7 @@ function checkIfUserIsLoggedOut() {
   })
 }
 
-function checkUser(UID, URL){
+function checkUser(UID, URL) {
   firebase.auth().onAuthStateChanged(function(user) {
     if(user){
       if(user.uid === UID) return window.location = URL
@@ -105,11 +105,8 @@ function logout(){
 }
 
 function login() {
-
-
-
-  checkUser('ZFx8Ao86c9UJY5mbCWaVGlK4Uk22', 'resetsheet.html');
-
+  checkUser('NyA8iRKneeUKBPQWpS1MPUO03tu2', 'resetsheet.html'); //admin account
+  
 
  //use these logins for test purposes 
 if (form.identifier.value=="admin") { 
