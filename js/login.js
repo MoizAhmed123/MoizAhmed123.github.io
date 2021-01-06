@@ -124,7 +124,7 @@ function login() {
   checkUser('epr7BJEJ0Lg57tQuTrCE5uFodmE3', 'hassan_h.html'); //Hassan Hussain
   checkUser('YWp9PkI5rsZF4GBtILFq07JVVM82', 'humdaanS.html'); //Humdaan syed
   checkUser('LWUIfhpKwDYesR8uOor2TJZafwk1', 'hunaynA.html'); //Hunayn
-  checkUser('', 'huzaifah_popalzai.html'); //Huzaifa P
+  //checkUser('', 'huzaifah_popalzai.html'); //Huzaifa P
 
 
 
