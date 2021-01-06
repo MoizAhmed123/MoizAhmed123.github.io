@@ -14,10 +14,10 @@ function checkIfUserIsLoggedOut() {
   })
 }
 
-function checkUser(UID, URL) {
+function checkUser(UID, FILE) {
   firebase.auth().onAuthStateChanged(function(user) {
     if(user){
-      if(user.uid === UID) return window.location = URL
+      if(user.uid === UID) return window.location = FILE
     } else {
       let email = document.getElementById("emailInput1").value;
       let password = document.getElementById("passwordInput1").value;
@@ -41,7 +41,7 @@ function checkUser(UID, URL) {
             clearInterval(timerInterval)
           }
         }).then((result) => {
-            window.location = URl
+            window.location = FILE
         })
       }).catch((error) => {
         Swal.fire({
