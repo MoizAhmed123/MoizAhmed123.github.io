@@ -106,19 +106,10 @@ function logout(){
 
 function login() {
   checkUser('NyA8iRKneeUKBPQWpS1MPUO03tu2', 'resetsheet.html'); //admin account
-  
 
- //use these logins for test purposes 
-if (form.identifier.value=="admin") { 
-console.log(form.identifier.value)
-if (form.pass.value=="user") { 
-  window.location.assign('https://assalaminstitute.ca/resetsheet.html');
-} else {
-  psw_failed();
-}
-//test js end
-} else {
-    //ZAAKIR SHEIKH
+
+/** dont uncomment yet 
+  //ZAAKIR SHEIKH
   if (form.identifier.value=="zaakir.sheikh") { 
     console.log(form.identifier.value)
     if (form.pass.value=="6302009") {
@@ -656,12 +647,7 @@ if (form.identifier.value=="nabil.kalifa") {
     } else {
       uid_failed();
 }
+
+**/
     
-
-
-//end of login.js there should be no else statments using last 2 brackets
-  }
-
-  
-
 }
