@@ -108,7 +108,7 @@ function login() {
   checkUser('NyA8iRKneeUKBPQWpS1MPUO03tu2', 'resetsheet.html'); //admin account
   checkUser('N5B94byvBUddRH53kQ7Yhhp1nAC3', 'zaakirS.html'); //Zaakir
   checkUser('uEcv5sBHqDfxVf0IiCkdBSzzITX2', 'abbas_alvi.html'); //abbas
-  checkUser('ppDqqgHmXchKk7dGS90hkQz9yUq1', 'abbas_alvi.html'); //abdussamad
+  checkUser('ppDqqgHmXchKk7dGS90hkQz9yUq1', 'abdussamad_siddiqi.html'); //abdussamad
 
 
 /** dont uncomment yet 
