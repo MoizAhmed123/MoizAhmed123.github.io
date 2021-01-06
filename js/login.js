@@ -111,23 +111,11 @@ function login() {
   checkUser('ppDqqgHmXchKk7dGS90hkQz9yUq1', 'abdussamad_siddiqi.html'); //abdussamad
   checkUser('yL8qHbpfUFZD7045BvYmZybtXR73', 'abdullah_malek.html'); //Abdullah Malek
   checkUser('pts6EzfsQyQWhxD7onzvU4pBehh1', 'abdur-rafay_khan.html'); //Abdurrafay
-
-
+  checkUser('S3Ti5aS9EmYKVNmSN0rSKj01H113', 'abuzar.html'); //Abuzar
+  checkUser('lZt8XdMWpiarmnZmcrZQV48qem83', 'affan_s.html'); //Affan Shaikh
 
 
 /** dont uncomment yet 
- 
-  //ABUZAR
-  if (form.identifier.value=="abuzar.popalzai") { 
-    console.log(form.identifier.value)
-    if (form.pass.value=="4142010") {
-      window.location.assign('https://assalaminstitute.ca/abuzar.html');
-    } else {
-      psw_failed();
-    }
-    } else {
-      uid_failed();
-}
 
   //AFFAN SHAIKH
   if (form.identifier.value=="affan.shaikh") { 
