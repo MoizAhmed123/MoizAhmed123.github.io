@@ -106,32 +106,11 @@ function logout(){
 
 function login() {
   checkUser('NyA8iRKneeUKBPQWpS1MPUO03tu2', 'resetsheet.html'); //admin account
+  checkUser('N5B94byvBUddRH53kQ7Yhhp1nAC3', 'zaakirS.html'); //Zaakir
+  checkUser('uEcv5sBHqDfxVf0IiCkdBSzzITX2', 'abbas_alvi.html'); //abbas
 
 
 /** dont uncomment yet 
-  //ZAAKIR SHEIKH
-  if (form.identifier.value=="zaakir.sheikh") { 
-    console.log(form.identifier.value)
-    if (form.pass.value=="6302009") {
-      window.location.assign('https://assalaminstitute.ca/zaakirS.html');
-    } else {
-      psw_failed();
-    }
-    } else {
-      uid_failed();
-  }
-
-  //ABBAS ALVI
-  if (form.identifier.value=="abbas.alvi") { 
-    console.log(form.identifier.value)
-    if (form.pass.value=="10272008") {
-      window.location.assign('https://assalaminstitute.ca/abbas_alvi.html');
-    } else {
-      psw_failed();
-    }
-    } else {
-      uid_failed();
-  }
 
   //ABDUSSAMAD SIDDIQI
   if (form.identifier.value=="abdussamad.siddiqi") { 
