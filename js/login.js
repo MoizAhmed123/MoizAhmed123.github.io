@@ -1,7 +1,8 @@
 function checkIfUserIsLoggedIn() {
   firebase.auth().onAuthStateChanged(function(user) {
     if(!user){
-      window.location.assign('https://assalaminstitute.ca/login.html')
+      window.location = "login.html";
+      return;
     }
   })
 }
