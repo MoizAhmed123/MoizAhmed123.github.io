@@ -3,6 +3,8 @@ function checkIfUserIsLoggedIn() {
     if(!user){
       window.location = "login.html";
       return;
+    } else {
+      $(".navbar-nav.ml-auto").append('<li class="nav-item"><a class="nav-link" onclick="logout()">Logout</a></li>');
     }
   })
 }
