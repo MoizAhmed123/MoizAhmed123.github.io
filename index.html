@@ -15,7 +15,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <meta name="KeyWords" content="Assalaam, Quraan, Teaching, Religion, Islam, Schools, Institute, Madrasah, Hafiz, Huffaz, Hifz">	
-    <title>Assalaam Institute of Quraan - Home</title>
+    <title>AIQ- Assalaam Institute of Quraan</title>
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom fonts for this template -->
@@ -30,7 +30,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand" href="index.html"><img src = "img/aiqlogo.png" height = 70/></a>
+        <a class="navbar-brand" href="index.html">AIQ</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
           <i class="fa fa-bars"></i>
@@ -38,13 +38,15 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <li class="nav-item">
+	      <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="ourprograms.html">Our Programs</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="methods.html">Methods of Teaching</a>
             </li>
-            <li class="nav-item">
+	     <li class="nav-item">
               <a class="nav-link" href="huffazlist.html">Huffaz List</a>
             </li>
             <li class="nav-item">
@@ -59,13 +61,9 @@
             <li class="nav-item">
               <a class="nav-link" href="contact.html">Contact Us</a>
 	    </li>
-              </li>
             <li class="nav-item">
               <a class="nav-link" href="donate.html">Donate</a>
             </li>
-	 <li class="nav-item">
-              <a class="nav-link" href="login.html">Login</a>
-		  </li>
           </ul>
         </div>
       </div>
@@ -86,7 +84,6 @@
         </div>
       </div>
     </header>
-	  
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -104,8 +101,152 @@
      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link href="css/clean-blog.min.css" rel="stylesheet">
     <link rel= "icon" type="images/png" href= "img/aiqlogo.png">
-	  
-	  <!-- Main Content -->	
+  </head>
+  <style>
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  background: #f1f1f1f1;
+}
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+  background-color:black;
+  background-color:blue;
+
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+/* The dot/bullet/indicator container */
+.dot-container {
+    text-align: center;
+    padding: 20px;
+    background: #ddd;
+}
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #717171;
+}
+/* Add an italic font style to all quotes */
+q {font-style: italic;}
+/* Add a blue color to the author */
+.author {color: cornflowerblue;}
+q {color:white;}
+h1{
+color:white;
+}
+  </style>
+  <body>
+    <!-- Navigation -->
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Main Content -->
+<div class="slideshow-container">
+<div class="mySlides">
+  <h1>NO CLASSES ON MONDAY, OCTOBER 12, 2020</h1>
+  
+</div>
+<div class="mySlides">
+	<h1><a class="nav-link"href= assalaminstitute.ca/contact.html">CONTACT US</a></h1>
+</div>
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+</div>
+<div class="dot-container">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+  <!--
+  <div class = "cSlide">
+    <p> Slide Three </p>
+    <img src = "img/matte-black.jpg">
+  </div>
+  <div class = "cSlide">
+    <p> Slide Four </p>
+    <img src = "img/matte-black.jpg">
+  </div>
+-->
+</figure>
+</div>
+    <hr>
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom scripts for this template -->
+    <script src="js/clean-blog.min.js"></script>
+    <script>
+var slideIndex = 1;
+showSlides(slideIndex);
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+<script src = "slider.js"></script>
+  </body>
+</html>
+    <!-- Main Content -->
     <center><img src = "img/bismillah.png" height = "50"/></center>
     <p class="container" id = firstPageTitle> 
     	<font size = "5">
@@ -121,11 +262,11 @@
                 <p class="post-meta"> <font size = "3"> We’d like to begin by praising Allah ﷻ and sending salutations to the Prophet Muhammad ﷺ. We thank Allah ﷻ for showering his blessings upon the success of this madrassah, without Allah ﷻ this project would not be possible. </font>
                 </p>
 	
-	           <p class="post-meta"> <font size = "3">The Madrasah has been running for the last 7 years and Alhamdulillah exponentially has grown over these years. It all began with a few students that showed dedication, and has since grown to a full Madrasah with many new students, and Huffaz. </font> </p>
+	           <p class="post-meta"> <font size = "3">The madrassah has been running for the last 6 years and Alhamdulillah exponentially has grown over these years. It all began with a few students that showed dedication, and has since grown to a full madrassah with many new students, and huffaz. </font> </p>
               
 	           <p class="post-meta"> <font size = "3"> There are many reasons for the start-up of this madrassah, the main reason being the need for a good environment for the Muslim youth. In today’s time, Muslim youth all over the world are being exposed to immoral environments which are having a negative impact on their future. To resolve this issue, the Assalaam Institute of Quraan (AIQ) offers youth an opportunity to be in an environment of young Muslims dedicated to memorizing the book of Allah ﷻ. In addition, AIQ focuses intensively on grooming these individuals with knowledge and akhlaaq so that they can become well-mannered, practicing Muslims. </font></p>
               
-	           <p class="post-meta"> <font size = "3">At AIQ, we give tremendous importance to memorizing the Qur’an. There are many rewards for huffaz in both dunya and akhirah, and our goal is to yield huffaz that can recite with perfect tajweed, and demonstrate strong ability to recall the Quraan from memory so that they are able to lead congregational prayers in the month of Ramadhan. To achieve this, it is our responsibility to motivate the students and encourage them to work to their maximum potential. This is done by providing students with constant reminders, and tips to make their memorization more efficient, manageable, and enjoyable. </font> </p>
+	           <p class="post-meta"> <font size = "3">At AIQ, we give tremendous importance to    memorizing the Qur’an. There are many rewards for huffaz in both dunya and akhirah, and our goal is to yield huffaz that can recite with perfect tajweed, and demonstrate strong ability to recall the Qur’an from memory so that they are able to lead congregational prayers in the month of Ramadhan. To achieve this, it is our responsibility to motivate the students and encourage them to work to their maximum potential. This is done by providing students with constant reminders, and tips to make their memorization more efficient, manageable, and enjoyable. </font> </p>
               
                 <p class="post-meta"> <font size = "3"> Besides being a madrassah, we treat all the students at AIQ like they are family. We encourage a strong connection between students and teachers, students are always welcome to have talks with the teachers about their experiences etc. </font> </p>
             </div>
@@ -144,27 +285,17 @@
    <!-- Who we are --, want to get the text to the left and leave room for prayer times--> 
     
     <!-- Footer -->
-<!DOCTYPE HTML>
-<style type="text/css">
-.tftable {font-size:12px;color:##a3a3a3;width:100%;border-width: 1px;border-color: #a3a3a3;border-collapse: collapse;}
-.tftable th {font-size:12px;background-color:#a3a3a3;border-width: 1px;padding: 1px;border-style: solid;border-color: #a3a3a3;text-align:left;}
-.tftable tr {background-color:#a3a3a3;}
-.tftable td {font-size:12px;border-width: 1px;padding: 1px;border-style: solid;border-color: #a3a3a3;}
-</style>
-<table class="tftable" border="1">
-		<center><tr><th><center><a class="nav-link" href= https://assalaminstitute.ca/index.html ">AIQ</center></a></th><th><center>Register</center></th><th><center><a class="nav-link" href= https://assalaminstitute.ca/studentresources.html ">Student Resources</a></center></th><th><center>Address</center></th><th><center><center><a class="nav-link" href= https://assalaminstitute.ca/contact.html ">Contact</a></center></center></th></tr></center>
-<tr><td><center><a class="nav-link" href= https://assalaminstitute.ca/ourprograms.html ">Our Programs</center></a></td><td><center><a class="nav-link" href= https://docs.google.com/forms/d/e/1FAIpQLSfK2e1aZirjavVa3TINZc9e05yhPItmuNhq-cb25Hm-O7AI3A/viewform ">Full-Time Hifz</a></center></td><td><center><a class="nav-link" href= https://assalaminstitute.ca/SeerahLessons.html ">Seerah Lessons</a></center></td><td><center>3031 Markham Rd, Scarborough, ON</center></td><td><center>Phone:(416)-829-0234</center></td></tr>
-<tr><td><center><a class="nav-link" href= https://assalaminstitute.ca/methods.html ">Methods of Teaching</a></center></td><td><center>Evening Hifz</center></td><td><center><a class="nav-link" href= https://assalaminstitute.ca/FiqhLessons.html ">Fiqh Lessons</a></center></td><td><center>M1X 1L6, Unit #25</center></td><td><center>Email: assalaamiq@gmail.com</center></td></tr>
-<tr><td><center><a class="nav-link" href= https://assalaminstitute.ca/huffazlist.html ">Huffaz List</a></center></td><td></td><td><center><a class="nav-link" href= https://assalaminstitute.ca/Ahadithlessons.html ">Ahadith Lessons</a></center></td><td></td><td></td></tr>
-<tr><td><center><a class="nav-link" href= https://assalaminstitute.ca/successstories.html ">Success Stories</a></center></td><td></td><td><center><a class="nav-link" href= https://assalaminstitute.ca/Aqaaidessons.html ">Aqaaid Lessons</a></center></td><td></td><td</td><td></td></tr>
-<tr><td><center><a class="nav-link" href= https://assalaminstitute.ca/frequentlyaskedquestions.html ">Frequently Asked Questions</a></center></td><td></td><td><center><a class="nav-link" href= https://assalaminstitute.ca/Akhlaaqlessons.html ">Akhlaaq Lessons</a></center></td><td></td><td></td></tr>
-<tr><td><center><a class="nav-link" href= https://assalaminstitute.ca/donate.html ">Donate</a></center></td><td></td><td></td><td></td><td><a class="nav-link" href= https://docs.google.com/forms/d/e/1FAIpQLSefO9-Nrl-T2I1rtdQgvHuTwFtg29oLcaRCJafHEbzrZ4r3pA/viewform "><center><strong>Message Here</strong></center></a></td></tr>
-<tr><td></td><td></td><td><center><pclass="copyright text-muted">Copyright &copy; TMDevs 2018</p></center></td><td></td><td></td></tr>
-	</table>
-</body>
-</html>
-</footer>
-  
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <ul class="list-inline text-center">
+            </ul>
+            <p class="copyright text-muted">Copyright &copy; TMDevs 2018</p>
+          </div>
+        </div>
+      </div>
+    </footer>
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
