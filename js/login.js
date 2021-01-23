@@ -5,6 +5,7 @@ function checkIfUserIsLoggedIn() {
       return;
     } else {
       $(".navbar-nav.ml-auto").append('<li class="nav-item"><a class="nav-link" onclick="logout()">Logout</a></li>');
+      $(".navbar-nav.ml-auto").append('<li class="nav-item"><a class="nav-link" onclick="changePassword()">Change Password</a></li>');
     }
   })
 }
@@ -106,6 +107,20 @@ function logout(){
       } else {
           window.location="login.html"
       }
+  })
+}
+
+function changePassword() {
+  firebase.auth().onAuthStateChanged(function(user) {
+    if(user){
+      firebase.auth().sendPasswordResetEmail(user.email).then(function(){
+        alert(`Please Check your email ${user.email}`);
+      }).catch(function(err){
+        alert(`There was an error ${err.message}`);
+      })
+    } else {
+      window.location = "login.html"
+    }
   })
 }
 
