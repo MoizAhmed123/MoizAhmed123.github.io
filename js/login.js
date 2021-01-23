@@ -133,140 +133,19 @@ function login() {
   checkUser('LnRavM362ihj1vqBtGbFe0aAzab2', 'luqmaanS.html'); //Lumqmaan shaikh
   checkUser('SywqHkycSPeldsD1LGTCNHXea0F2', 'maryam_a.html'); //Maryam A
   checkUser('YIzx4AWN3YauO98L5EanB2l3VTA2', 'mohib.html'); //mohib malek
+  checkUser('yOR5TXQ0hYgrGNEjmAFV93xae5o1', 'muhammadm.html'); //Muhammad mehraban
+  checkUser('huG5p8ed9Hh5zj1TnwNVFXqaNvD3', 'muhammad-k.html.html'); //muhammad k
+  checkUser('oTy5HBN7aicw0obww8DVm4HSS4m1', 'munir.html'); //munir khan
+  checkUser('AqdpYGrADGbviVXs1bgdpPKZAFw2', 'mustafa.html'); //Mustafa Khan
+  checkUser('Xd3ZVDkmW4hJ8uT7dMfeZV5flcn1', 'nabil.html'); //Nabil k
+  checkUser('YXdFN0yqwBOIab5hQFaKw0eGPp33', 'raashid-a.html'); //Rashid A
+  checkUser('gSlvwgHXOEcvmggk6l9qer3obDp1', 'rayan-m.html'); //Rayan M
+  checkUser('0f83ECkxkMU7UFmhbvJplOLBlIJ2', 'sadiq.html'); //Sadiq M
+  checkUser('xsPYEq99TvaV9K4zRcLTB27dusq2', 'safa.html'); //Safa Alvi
+  checkUser('dtPqtiWkUtWLinxXO8DIMbbYlYe2', 'sidik.html'); //Sidik K
+  checkUser('yv6mfXIDVfWNhQDzoJOTF2PqoOB3', 'taha.html'); //Taha A
 
-/** dont uncomment yet 
-   
- //MUHAMMAD KHANDWALLA
-  if (form.identifier.value=="muhammad.khandwalla") { 
-    console.log(form.identifier.value)
-    if (form.pass.value=="2142010") {
-      window.location.assign('https://assalaminstitute.ca/muhammad-k.html');
-    } else {
-      psw_failed();
-    }
-    } else {
-      uid_failed();
-}
- 
- //MUHAMMAD MEHRABAN
-  if (form.identifier.value=="muhammad.mehraban") { 
-    console.log(form.identifier.value)
-    if (form.pass.value=="6062009") {
-      window.location.assign('https://assalaminstitute.ca/muhammadm.html');
-    } else {
-      psw_failed();
-    }
-    } else {
-      uid_failed();
-}
-
-  //MUNIR KHAN
-  if (form.identifier.value=="munir.khan") { 
-    console.log(form.identifier.value)
-    if (form.pass.value=="1092009") {
-      window.location.assign('https://assalaminstitute.ca/munir.html');
-    } else {   
-      psw_failed();
-    }
-    } else {
-      uid_failed();
-}
-
-  //MUSTAFA KHAN
-if (form.identifier.value=="mustafa.khan") { 
-  console.log(form.identifier.value)
-  if (form.pass.value=="3152008") {
-    window.location.assign('https://assalaminstitute.ca/mustafa.html');
-  } else {
-    psw_failed();
-  }
-  } else {
-    uid_failed();
-}
-
-  //NABIL K
-if (form.identifier.value=="nabil.kalifa") { 
-  console.log(form.identifier.value)
-  if (form.pass.value=="11122009") {
-    window.location.assign('https://assalaminstitute.ca/nabil.html');
-  } else {
-    psw_failed();
-  }
-  } else {
-    uid_failed();
-}
-
-   //RAASHID ABDULLAH
-  if (form.identifier.value=="raashid.abdullah") { 
-    console.log(form.identifier.value)
-    if (form.pass.value=="10302008") {
-      window.location.assign('https://assalaminstitute.ca/raashid-a.html');
-    } else {
-      psw_failed();
-    }
-    } else {
-      uid_failed();
-}
- 
-  //RAYAN MIRZA
-  if (form.identifier.value=="rayan.mirza") { 
-    console.log(form.identifier.value)
-    if (form.pass.value=="6102009") {
-      window.location.assign('https://assalaminstitute.ca/rayan-m.html');
-    } else {
-      psw_failed();
-    }
-    } else {
-      uid_failed();
-}
- 
-  //SADIQ M
-  if (form.identifier.value=="sadiq.merchant") { 
-    console.log(form.identifier.value)
-    if (form.pass.value=="12202007") {
-      window.location.assign('https://assalaminstitute.ca/sadiq.html');
-    } else {
-      psw_failed();
-    }
-    } else {
-      uid_failed();
-}
- 
-  //SAFA ALVI
-  if (form.identifier.value=="safa.alvi") { 
-    console.log(form.identifier.value)
-    if (form.pass.value=="5192010") {
-      window.location.assign('https://assalaminstitute.ca/safa.html');
-    } else {
-      psw_failed();
-    }
-    } else {
-      uid_failed();
-}
-
-  //SIDIK KARATELLA
-  if (form.identifier.value=="sidik.karatella") { 
-    console.log(form.identifier.value)
-    if (form.pass.value=="2162008") {
-      window.location.assign('https://assalaminstitute.ca/sidik.html');
-    } else {
-      psw_failed();
-    }
-    } else {
-      uid_failed();
-}
- 
-   //TAHA ABDULLAH
-  if (form.identifier.value=="taha.abdullah") { 
-    console.log(form.identifier.value)
-    if (form.pass.value=="9202007") {
-      window.location.assign('https://assalaminstitute.ca/taha.html');
-    } else {
-      psw_failed();
-    }
-    } else {
-      uid_failed();
-}
+/** dont uncomment yet
  
    //TALHA KHAN
   if (form.identifier.value=="talha.khan") { 
