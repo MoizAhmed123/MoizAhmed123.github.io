@@ -111,7 +111,6 @@ function logout(){
 
 function login() {
   checkUser('NyA8iRKneeUKBPQWpS1MPUO03tu2', 'resetsheet.html'); //admin account
-  checkUser('N5B94byvBUddRH53kQ7Yhhp1nAC3', 'zaakirS.html'); //Zaakir
   checkUser('uEcv5sBHqDfxVf0IiCkdBSzzITX2', 'abbas_alvi.html'); //abbas
   checkUser('ppDqqgHmXchKk7dGS90hkQz9yUq1', 'abdussamad_siddiqi.html'); //abdussamad
   checkUser('yL8qHbpfUFZD7045BvYmZybtXR73', 'abdullah_malek.html'); //Abdullah Malek
@@ -154,34 +153,7 @@ function login() {
   checkUser('5mox7cAjKoPTlwYze4Zo1jDRM713', 'yusufA.html'); //yusuf A
   checkUser('vPgk62fOByeVtspcZxbxS58gd273', 'yusufG.html'); //yusuf G
   checkUser('ngy4ZzX3s4ZCERa9ci5jedtRKCG3', 'yusufH.html'); //yusuf H
-
-
-/** dont uncomment yet
-    
-  //ZAIGHAM KHAWAJA
-  if (form.identifier.value=="zaigham.khawaja") { 
-    console.log(form.identifier.value)
-    if (form.pass.value=="8062010") {
-      window.location.assign('https://assalaminstitute.ca/zaigham.html');
-    } else {
-      psw_failed();
-    }
-    } else {
-      uid_failed();
-}
-  
-  //ZAYD IKRAM
-  if (form.identifier.value=="zayd.ikram") { 
-    console.log(form.identifier.value)
-    if (form.pass.value=="12072009") {
-      window.location.assign('https://assalaminstitute.ca/zaydI.html');
-    } else {
-      psw_failed();
-    }
-    } else {
-      uid_failed();
-}
-
-**/
-    
+  checkUser('N5B94byvBUddRH53kQ7Yhhp1nAC3', 'zaakirS.html'); //Zaakir
+  checkUser('fR5GG5dlgZcDAOguIT105iAqJVx1', 'zaigham.html'); //Zaigham
+  //checkUser('', 'zaydI.html'); //Zayd I
 }
