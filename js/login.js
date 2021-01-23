@@ -131,45 +131,10 @@ function login() {
   //checkUser('', 'irfan.html'); //Irfan Shaikh
   checkUser('OYoXjcjt68btpcXXseWrbOnwbrC3', 'ismael.html'); //Ismail Sherif
   checkUser('LnRavM362ihj1vqBtGbFe0aAzab2', 'luqmaanS.html'); //Lumqmaan shaikh
+  checkUser('SywqHkycSPeldsD1LGTCNHXea0F2', 'maryam_a.html'); //Maryam A
+  checkUser('YIzx4AWN3YauO98L5EanB2l3VTA2', 'mohib.html'); //mohib malek
 
 /** dont uncomment yet 
-  
-  
-  //LUQMAAN SHAIKH
-  if (form.identifier.value=="luqmaan.shaikh") { 
-    console.log(form.identifier.value)
-    if (form.pass.value=="Luqm@@n01") {
-      window.location.assign('https://assalaminstitute.ca/luqmaanS.html');
-    } else {
-      psw_failed();
-    }
-    } else {
-      uid_failed();
-}
-
-  //MARYAM ABDULLAH
-  if (form.identifier.value=="maryam.abdullah") { 
-    console.log(form.identifier.value)
-    if (form.pass.value=="13302010") {
-      window.location.assign('https://assalaminstitute.ca/maryam_a.html');
-    } else {
-      psw_failed();
-    }
-    } else {
-      uid_failed();
-}
- 
-  //MOHIB MALIK
-  if (form.identifier.value=="mohib.malek") { 
-    console.log(form.identifier.value)
-    if (form.pass.value=="mikail12") {
-      window.location.assign('https://assalaminstitute.ca/mohib.html');
-    } else {
-      psw_failed();
-    }
-    } else {
-      uid_failed();
-}
    
  //MUHAMMAD KHANDWALLA
   if (form.identifier.value=="muhammad.khandwalla") { 
