@@ -170,5 +170,5 @@ function login() {
   checkUser('ngy4ZzX3s4ZCERa9ci5jedtRKCG3', 'yusufH.html'); //yusuf H
   checkUser('N5B94byvBUddRH53kQ7Yhhp1nAC3', 'zaakirS.html'); //Zaakir
   checkUser('fR5GG5dlgZcDAOguIT105iAqJVx1', 'zaigham.html'); //Zaigham
-  //checkUser('', 'zaydI.html'); //Zayd I
+  //checkUser('', 'zaydI.html'); //Zayd Ikram
 }
