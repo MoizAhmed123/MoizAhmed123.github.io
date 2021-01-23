@@ -144,127 +144,19 @@ function login() {
   checkUser('xsPYEq99TvaV9K4zRcLTB27dusq2', 'safa.html'); //Safa Alvi
   checkUser('dtPqtiWkUtWLinxXO8DIMbbYlYe2', 'sidik.html'); //Sidik K
   checkUser('yv6mfXIDVfWNhQDzoJOTF2PqoOB3', 'taha.html'); //Taha A
+  checkUser('l50Qvgb6n4TyTACAavKuqnmAE1R2', 'talha.html'); //Talha Khan
+  checkUser('4Uy5yjFhzThXNd8nxefNXXavPED2', 'umar_syed.html'); //Umar Syed
+  checkUser('11jMCcMQAAYGvhWgufTvxPbHvZ72', 'umerc.html'); //Umer Ch
+  checkUser('11jMCcMQAAYGvhWgufTvxPbHvZ72', 'usmanc.html'); //Usman Ch
+  checkUser('oEqk61xUykOwu34kcp4Am89W53k2', 'uthmanq.html'); //Uthman Qadri
+  checkUser('xE2fZFUHlbXXJv0TRZ1Do7X3DGA3', 'yahhyaM.html'); //Yahya m
+  checkUser('mvYyChvjUkQlhTZvRQGh5wPAyQH3', 'yousufM.html'); //yousuf M
+  checkUser('5mox7cAjKoPTlwYze4Zo1jDRM713', 'yusufA.html'); //yusuf A
+  checkUser('vPgk62fOByeVtspcZxbxS58gd273', 'yusufG.html'); //yusuf G
+  checkUser('ngy4ZzX3s4ZCERa9ci5jedtRKCG3', 'yusufH.html'); //yusuf H
+
 
 /** dont uncomment yet
- 
-   //TALHA KHAN
-  if (form.identifier.value=="talha.khan") { 
-    console.log(form.identifier.value)
-    if (form.pass.value=="5172005") {
-      window.location.assign('https://assalaminstitute.ca/talha.html');
-    } else {
-      psw_failed();
-    }
-    } else {
-      uid_failed();
-}
-
-  //UMAR SYED
-  if (form.identifier.value=="umar.syed") { 
-    console.log(form.identifier.value)
-    if (form.pass.value=="1142006") {
-      window.location.assign('https://assalaminstitute.ca/umar_syed.html');
-    } else {
-      psw_failed();
-    }
-    } else {
-      uid_failed();
-}
- 
-  //UMER CHAUDHARY
-  if (form.identifier.value=="umer.chaudhary") { 
-    console.log(form.identifier.value)
-    if (form.pass.value=="3152010") {
-      window.location.assign('https://assalaminstitute.ca/umerc.html');
-    } else {
-      psw_failed();
-    }
-    } else {
-      uid_failed();
-}
- 
-  //USMAN CHAUDHARY
-  if (form.identifier.value=="usman.chaudhary") { 
-    console.log(form.identifier.value)
-    if (form.pass.value=="12162011") {
-      window.location.assign('https://assalaminstitute.ca/usmanc.html');
-    } else {
-      psw_failed();
-    }
-    } else {
-      uid_failed();
-}
- 
-  //UTHMAN QADRI
-  if (form.identifier.value=="uthman.qadri") { 
-    console.log(form.identifier.value)
-    if (form.pass.value=="9202008") {
-      window.location.assign('https://assalaminstitute.ca/uthmanq.html');
-    } else {
-      psw_failed();
-    }
-    } else {
-      uid_failed();
-}
- 
- //YAHHYA MEHRABAN
-  if (form.identifier.value=="yahhya.mehraban") { 
-    console.log(form.identifier.value)
-    if (form.pass.value=="9222011") {
-      window.location.assign('https://assalaminstitute.ca/yahhyaM.html');
-    } else {
-      psw_failed();
-    }
-    } else {
-      uid_failed();
-}
-  
-  //YOUSUF MEHMOOD
-  if (form.identifier.value=="yousuf.mehmood") { 
-    console.log(form.identifier.value)
-    if (form.pass.value=="11112007") {
-      window.location.assign('https://assalaminstitute.ca/yousufM.html');
-    } else {
-      psw_failed();
-    }
-    } else {
-      uid_failed();
-}
-
-  //YUSUF AMJAD
-  if (form.identifier.value=="yusuf.amjad") { 
-    console.log(form.identifier.value)
-    if (form.pass.value=="10302007") {
-      window.location.assign('https://assalaminstitute.ca/yusufA.html');
-    } else {
-      psw_failed();
-    }
-    } else {
-      uid_failed();
-}
-
-
-  //YUSUF GONZALEZ
-  if (form.identifier.value=="yusuf.gonzalez") { 
-    console.log(form.identifier.value)
-    if (form.pass.value=="5252010") {
-      window.location.assign('https://assalaminstitute.ca/yusufG.html');
-    } else {
-      psw_failed();
-    }
-    } else {
-}
-
-  //YUSUF HUSAINI
-  if (form.identifier.value=="yusuf.husaini") { 
-    console.log(form.identifier.value)
-    if (form.pass.value=="10022007") {
-      window.location.assign('https://assalaminstitute.ca/yusufH.html');
-    } else {
-      psw_failed();
-    }
-    } else {
-}
     
   //ZAIGHAM KHAWAJA
   if (form.identifier.value=="zaigham.khawaja") { 
