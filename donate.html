@@ -53,18 +53,17 @@
           color: $white;
   position: relative;
   display: inline-block;
-
 }
 .dropdown-content {
   display: none;
   position: absolute;
+  background-color: #f9f9f9;
   background-color: none;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   padding: 12px 16px;
   z-index: 1;
 }
-
 .dropdown:hover .dropdown-content {
   display: block;
 }
@@ -78,11 +77,17 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="ourprograms.html">Our Programs</a>
+		     	 <div class="dropdown-content">
+    	<p>Hello World!</p>
+		    </div>
 		    <div class="dropdown">
- 	 <span>Our Programs</span>
+ 	 <span>Mouse over me</span>
  	 <div class="dropdown-content">
-    	<p>FAQ</p>
-		 	 </div>
+    	<p>Hello World!</p>
+ 	 </div>
+            </li>
             <li class="nav-item">
               <a class="nav-link" href="methods.html">Methods of Teaching</a>
             </li>
@@ -111,7 +116,6 @@
         </div>
       </div>
     </nav>
-
     <!-- Page Header -->
     <header class="masthead" style="background-image: url('img/home-bg.jpg')">
       <div class="overlay"></div>
