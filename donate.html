@@ -53,8 +53,17 @@
           color: $white;
   position: relative;
   display: inline-block;
+	
+} @media only screen and (min-width: 992px) {
+    border-bottom: 1px solid transparent;
+    background: transparent;
+    .navbar-brand {
+      padding: 10px 20px;
+      color: $white;
+      &:focus,
+      &:hover {
+        color: fade-out($white, .2);
 }
-
 .dropdown-content {
   display: none;
   position: absolute;
@@ -84,7 +93,7 @@
     	<p>Hello World!</p>
 		    </div>
 		    <div class="dropdown">
- 	 <span>Mouse over me</span>
+ 	 <span>Our Programs</span>
  	 <div class="dropdown-content">
     	<p>Hello World!</p>
  	 </div>
