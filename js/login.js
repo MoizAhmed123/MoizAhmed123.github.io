@@ -142,7 +142,7 @@ function login() {
   checkUser('YWp9PkI5rsZF4GBtILFq07JVVM82', 'humdaanS.html'); //Humdaan syed
   checkUser('LWUIfhpKwDYesR8uOor2TJZafwk1', 'hunaynA.html'); //Hunayn
   checkUser('ZpJyMwOcqjWnsgz7WxnNiQhCHDQ2', 'huzaifah_popalzai.html'); //Huzaifa P
-  //checkUser('', 'irfan.html'); //Irfan Shaikh
+  checkUser('05nH9nR3SeVSu5RLLueTKocOP4I3', 'irfan.html'); //Irfan Shaikh
   checkUser('OYoXjcjt68btpcXXseWrbOnwbrC3', 'ismael.html'); //Ismail Sherif
   checkUser('LnRavM362ihj1vqBtGbFe0aAzab2', 'luqmaanS.html'); //Lumqmaan shaikh
   checkUser('SywqHkycSPeldsD1LGTCNHXea0F2', 'maryam_a.html'); //Maryam A
@@ -170,5 +170,5 @@ function login() {
   checkUser('ngy4ZzX3s4ZCERa9ci5jedtRKCG3', 'yusufH.html'); //yusuf H
   checkUser('N5B94byvBUddRH53kQ7Yhhp1nAC3', 'zaakirS.html'); //Zaakir
   checkUser('fR5GG5dlgZcDAOguIT105iAqJVx1', 'zaigham.html'); //Zaigham
-  //checkUser('', 'zaydI.html'); //Zayd Ikram
+  checkUser('n0WGwJVqiSO3iYc2nggp7MvaF5v2', 'zaydI.html'); //Zayd Ikram
 }
