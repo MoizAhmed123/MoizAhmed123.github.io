@@ -140,7 +140,7 @@ function login() {
   checkUser('wojaYJDAwxgQykpT6i4k1dQPj1g1', 'haseeb.html'); //Haseeb Aziz
   checkUser('epr7BJEJ0Lg57tQuTrCE5uFodmE3', 'hassan_h.html'); //Hassan Hussain
   checkUser('YWp9PkI5rsZF4GBtILFq07JVVM82', 'humdaanS.html'); //Humdaan syed
-  checkUser('LWUIfhpKwDYesR8uOor2TJZafwk1', 'hunaynA.html'); //Hunayn
+  checkUser('oKFP2qq5vlhZDuub58DKbt59Nah1', 'hunaynA.html'); //Hunayn
   checkUser('ZpJyMwOcqjWnsgz7WxnNiQhCHDQ2', 'huzaifah_popalzai.html'); //Huzaifa P
   checkUser('05nH9nR3SeVSu5RLLueTKocOP4I3', 'irfan.html'); //Irfan Shaikh
   checkUser('OYoXjcjt68btpcXXseWrbOnwbrC3', 'ismael.html'); //Ismail Sherif
