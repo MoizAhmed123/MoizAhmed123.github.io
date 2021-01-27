@@ -162,6 +162,7 @@ function login() {
   checkUser('4Uy5yjFhzThXNd8nxefNXXavPED2', 'umar_syed.html'); //Umar Syed
   checkUser('11jMCcMQAAYGvhWgufTvxPbHvZ72', 'umerc.html'); //Umer Ch
   checkUser('11jMCcMQAAYGvhWgufTvxPbHvZ72', 'usmanc.html'); //Usman Ch
+  checkUser('11jMCcMQAAYGvhWgufTvxPbHvZ72', 'sidra.html'); //Sidra Ch
   checkUser('oEqk61xUykOwu34kcp4Am89W53k2', 'uthmanq.html'); //Uthman Qadri
   checkUser('xE2fZFUHlbXXJv0TRZ1Do7X3DGA3', 'yahhyaM.html'); //Yahya m
   checkUser('05VXhhM7uhZQsuYP2RWbWve74xw1', 'yousufM.html'); //yousuf M
