@@ -148,7 +148,7 @@ function login() {
   checkUser('SywqHkycSPeldsD1LGTCNHXea0F2', 'maryam_a.html'); //Maryam A
   checkUser('YIzx4AWN3YauO98L5EanB2l3VTA2', 'mohib.html'); //mohib malek
   checkUser('yOR5TXQ0hYgrGNEjmAFV93xae5o1', 'muhammadm.html'); //Muhammad mehraban
-  checkUser('huG5p8ed9Hh5zj1TnwNVFXqaNvD3', 'muhammad-k.html.html'); //muhammad k
+  checkUser('huG5p8ed9Hh5zj1TnwNVFXqaNvD3', 'muhammad-k.html'); //muhammad k
   checkUser('oTy5HBN7aicw0obww8DVm4HSS4m1', 'munir.html'); //munir khan
   checkUser('AqdpYGrADGbviVXs1bgdpPKZAFw2', 'mustafa.html'); //Mustafa Khan
   checkUser('Xd3ZVDkmW4hJ8uT7dMfeZV5flcn1', 'nabil.html'); //Nabil k
