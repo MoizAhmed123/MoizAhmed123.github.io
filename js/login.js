@@ -136,7 +136,6 @@ function login() {
   checkUser('0bHaYkVi04UWRBSWj4n5k2EqjE03', 'basil_a.html'); //Basil Ahmed
   checkUser('IsmVwhDQqDOWpQ3EIXKBabpPVD73', 'bilal_m.html'); //Bilal muhammad
   checkUser('OmnvjCIScSUTS7J86aS3qj4gG8L2', 'hamdaan_abdul_suboor.html'); //Hamdaan abdul saboor
-  checkUser('YzrbedTmcNNtWCb3uB61x7wdNR72', 'hamza_m.html'); //Hamza Muhammad
   checkUser('wojaYJDAwxgQykpT6i4k1dQPj1g1', 'haseeb.html'); //Haseeb Aziz
   checkUser('epr7BJEJ0Lg57tQuTrCE5uFodmE3', 'hassan_h.html'); //Hassan Hussain
   checkUser('YWp9PkI5rsZF4GBtILFq07JVVM82', 'humdaanS.html'); //Humdaan syed
