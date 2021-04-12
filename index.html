@@ -100,11 +100,7 @@
         </div>
       </div>
     </header>
-	  <!-- Noscript content for added SEO -->
-<noscript><a href="https://www.eventbrite.com/e/taraweeh-registration-tickets-146787181411" rel="noopener noreferrer" target="_blank"></noscript>
-<!-- You can customize this button any way you like -->
-<button id="emailInput1" type="button">Register for Taraweeh</button>
-<noscript></a>Buy Tickets on Eventbrite</noscript>
+	<div id="eventbrite-widget-container-146787181411"></div>
 
 <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
 
@@ -114,11 +110,14 @@
     };
 
     window.EBWidgets.createWidget({
+        // Required
         widgetType: 'checkout',
         eventId: '146787181411',
-        modal: true,
-        modalTriggerElementId: 'eventbrite-widget-modal-trigger-146787181411',
-        onOrderComplete: exampleCallback
+        iframeContainerId: 'eventbrite-widget-container-146787181411',
+
+        // Optional
+        iframeContainerHeight: 425,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
+        onOrderComplete: exampleCallback  // Method called when an order has successfully completed
     });
 </script>
 <!-- Main Content -->
