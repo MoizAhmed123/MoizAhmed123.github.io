@@ -27,6 +27,35 @@
           color: #FFFFFF;
   position: relative;
   display: inline-block;
+	
+	  @media only screen and (min-width: 992px) {
+    border-bottom: 1px solid transparent;
+    background: transparent;
+    .navbar-brand {
+      padding: 10px 20px;
+      color: $white;
+      &:focus,
+      &:hover {
+        color: fade-out($white, .2);
+      }
+    }
+    .navbar-nav {
+      > li.nav-item {
+        > a {
+          padding: 10px 20px;
+          color: $white;
+          &:focus,
+          &:hover {
+            color: fade-out($white, .2);
+        }
+      }
+    }
+  }
+  @media only screen and (min-width: 992px) {
+    -webkit-transition: background-color 0.2s;
+    -moz-transition: background-color 0.2s;
+    transition: background-color 0.2s;
+	   }
 }
 .dropdown-content {
   display: none;
