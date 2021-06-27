@@ -1,3 +1,4 @@
+#Main
 .dropdown {
 	  font-size: 12px;
         font-weight: 800;
@@ -29,7 +30,7 @@
   display: block;
 }
 a:link {
-  color: white;
+  color: black;
   background-color: transparent;
   text-decoration: none;
 }
