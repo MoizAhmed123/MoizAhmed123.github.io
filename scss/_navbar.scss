@@ -1,7 +1,7 @@
 // Styling for the navbar
 #mainNav {
   position: absolute;
-  border-bottom: 1px solid $gray-200;
+  border-bottom: 1px solid $grey-200;
   background-color: #FFFFFF;
   @include sans-serif-font;
   .navbar-brand {
@@ -30,20 +30,20 @@
     background: transparent;
     .navbar-brand {
       padding: 10px 20px;
-      color: $black;
+      color: $grey;
       &:focus,
       &:hover {
-        color: fade-out($black, .2);
+        color: fade-out($grey, .2);
       }
     }
     .navbar-nav {
       > li.nav-item {
         > a {
           padding: 10px 20px;
-          color: $black;
+          color: $grey;
           &:focus,
           &:hover {
-            color: fade-out($black, .2);
+            color: fade-out($grey, .2);
           }
         }
       }
@@ -67,10 +67,10 @@
       -webkit-transition: -webkit-transform 0.2s;
       -moz-transition: -moz-transform 0.2s;
       transition: transform 0.2s;
-      border-bottom: 1px solid darken($black, .05);
-      background-color: fade-out($black, .1);
+      border-bottom: 1px solid darken($grey, .05);
+      background-color: fade-out($grey, .1);
       .navbar-brand {
-        color: $gray-900;
+        color: $grey-900;
         &:focus,
         &:hover {
           color: $primary;
@@ -79,7 +79,7 @@
       .navbar-nav {
         > li.nav-item {
           > a {
-            color: $gray-900;
+            color: $grey-900;
             &:focus,
             &:hover {
               color: $primary;
