@@ -25,7 +25,7 @@
 .dropdown:hover .dropdown-content {
   display: block;
 }
-nav-link {
+a:link {
   color: green;
   background-color: transparent;
   text-decoration: none;
