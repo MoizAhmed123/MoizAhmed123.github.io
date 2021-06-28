@@ -13,7 +13,7 @@
     font-weight: 800;
     padding: 15px;
     text-transform: uppercase;
-    color: $gray-800;
+    color: white;
   }
   .navbar-nav {
     > li.nav-item {
@@ -30,7 +30,7 @@
     background: transparent;
     .navbar-brand {
       padding: 10px 20px;
-      color: $white;
+      color: $black;
       &:focus,
       &:hover {
         color: fade-out($white, .2);
@@ -40,7 +40,7 @@
       > li.nav-item {
         > a {
           padding: 10px 20px;
-          color: $white;
+          color: $black;
           &:focus,
           &:hover {
             color: fade-out($white, .2);
