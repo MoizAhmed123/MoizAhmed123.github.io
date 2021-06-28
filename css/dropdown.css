@@ -11,7 +11,15 @@
 	background-color: none;
   position: relative;
   display: inline-block;
-}
+}    
+} 
+} 
+.dropdown {
+        > li.dropdown-item {
+          > a {
+            color: $gray-900;
+
+		    
 .dropdown-content {
   display: none;
 	color: #FFFFFF;
