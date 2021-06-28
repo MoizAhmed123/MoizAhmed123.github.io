@@ -4,8 +4,8 @@
         letter-spacing: 1px;
         text-transform: uppercase;
 	padding: 10px 20px;
-          color: #FFFFFF;
-  position: relative;
+          color: gray;
+  position: absolute;
   display: inline-block;
 }
     }
@@ -13,7 +13,7 @@
   @media only screen and (min-width: 992px) {
 	        text-transform: uppercase;
 	padding: 10px 20px;
-          color: gray;  
+          color: #FFFFFF;  
 	   }
 .dropdown-content {
   display: none;
