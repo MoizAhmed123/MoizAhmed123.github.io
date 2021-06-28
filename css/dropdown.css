@@ -8,13 +8,6 @@
   position: relative;
   display: inline-block;
 }
-    }
-  }
-  @media only screen and (min-width: 992px) {
-	        text-transform: uppercase;
-	padding: 10px 20px;
-          color: gray;  
-	   }
 .dropdown-content {
   display: none;
   position: absolute;
@@ -29,7 +22,7 @@
   display: block;
 }
 a:link {
-  color: black;
+  color: green;
   background-color: transparent;
   text-decoration: none;
 }
