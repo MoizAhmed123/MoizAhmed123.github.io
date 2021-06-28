@@ -5,7 +5,7 @@
         letter-spacing: 1px;
         text-transform: uppercase;
 	padding: 10px 20px;
-          color: #FFFFFF;
+          color: red;
 	  border-bottom: 1px solid $gray-200;
   background-color: none;
 	background-color: none;
@@ -14,10 +14,6 @@
 }    
 } 
 } 
-.dropdown {
-        > li.dropdown-item {
-          > a {
-            color: $gray-900;
 
 		    
 .dropdown-content {
