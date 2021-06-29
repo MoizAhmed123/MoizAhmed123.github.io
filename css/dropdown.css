@@ -29,7 +29,7 @@
   display: block;
 }
 a:link {
-  color: green;
+  color: none;
   background-color: transparent;
   text-decoration: none;
 }
