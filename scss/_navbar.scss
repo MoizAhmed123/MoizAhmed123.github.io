@@ -1,23 +1,25 @@
 // Styling for the navbar
 #mainNav {
   position: absolute;
-  border-bottom: 1px solid $grey-200;
-  background-color: #FFFFFF;
+  border-bottom: 1px solid $gray-200;
+  background-color: white;
   @include sans-serif-font;
   .navbar-brand {
     font-weight: 800;
-    color: #808080;
+    color: $gray-800;
   }
   .navbar-toggler {
+    font-size: 12px;
     font-size: 15px;
     font-weight: 800;
-    padding: 15px;
+    padding: 13px;
     text-transform: uppercase;
-    color: #808080;
+    color: $gray-800;
   }
   .navbar-nav {
     > li.nav-item {
       > a {
+        font-size: 12px;
         font-size: 15px;
         font-weight: 800;
         letter-spacing: 1px;
@@ -30,20 +32,20 @@
     background: transparent;
     .navbar-brand {
       padding: 10px 20px;
-      color: #808080;
+      color: $white;
       &:focus,
       &:hover {
-        color: fade-out($grey, .2);
+        color: fade-out($white, .2);
       }
     }
     .navbar-nav {
       > li.nav-item {
         > a {
           padding: 10px 20px;
-          color: #808080;
+          color: $white;
           &:focus,
           &:hover {
-            color: fade-out($grey, .2);
+            color: fade-out($white, .2);
           }
         }
       }
@@ -67,10 +69,10 @@
       -webkit-transition: -webkit-transform 0.2s;
       -moz-transition: -moz-transform 0.2s;
       transition: transform 0.2s;
-      border-bottom: 1px solid darken($grey, .05);
-      background-color: fade-out($grey, .1);
+      border-bottom: 1px solid darken($white, .05);
+      background-color: fade-out($white, .1);
       .navbar-brand {
-        color: #808080;
+        color: $gray-900;
         &:focus,
         &:hover {
           color: $primary;
@@ -79,7 +81,7 @@
       .navbar-nav {
         > li.nav-item {
           > a {
-            color: #808080-900;
+            color: $gray-900;
             &:focus,
             &:hover {
               color: $primary;
