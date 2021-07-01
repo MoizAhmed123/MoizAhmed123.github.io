@@ -39,6 +39,6 @@
   display: block;
 }
 
-.dropdown-content a:hover {color: #ddd;}
+.dropdown-content a:hover {color: none;}
 
 .dropdown:hover .dropdown-content {display: block;}
